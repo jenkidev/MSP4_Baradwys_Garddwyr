@@ -1,0 +1,263 @@
+[
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "name": "Rose",
+            "species": "Rosa spp.",
+            "category": "flower",
+            "description": "Classic flowering plants known for fragrant and colorful blooms.",
+            "price": 15.99,
+            "planting_conditions": "Full sun; well-drained soil",
+            "rating": 4.5,
+            "image": "roses.jpg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "name": "Tulip",
+            "species": "Tulipa spp.",
+            "category": "flower",
+            "description": "Spring-blooming flowers with a wide range of colors and shapes.",
+            "price": 12.49,
+            "planting_conditions": "Well-drained soil; partial to full sun",
+            "rating": 4.0
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "name": "Daffodil",
+            "species": "Daffodil spp.",
+            "category": "flower",
+            "description": "Cheerful yellow flowers in spring, easy to grow and excellent as cut flowers.",
+            "price": 9.99,
+            "planting_conditions": "Well-drained soil; full sun to partial shade",
+            "rating": 4.2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "name": "Lavender",
+            "species": "Lavandula angustifolia",
+            "category": "flower",
+            "description": "Fragrant herb with spikes of purple flowers, prized for aromatic foliage.",
+            "price": 18.75,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.7
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "name": "Fuchsia",
+            "species": "Fuchsia spp.",
+            "category": "flower",
+            "description": "Ornamental shrubs with pendulous flowers in various vibrant colors.",
+            "price": 14.95,
+            "planting_conditions": "Partial shade; moist, well-drained soil",
+            "rating": 4.3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 6,
+        "fields": {
+            "name": "Gerbera Daisy",
+            "species": "Gerbera jamesonii",
+            "category": "flower",
+            "description": "Compact flowering plants with large, colorful blooms.",
+            "price": 22.50,
+            "planting_conditions": "Well-drained soil; bright, indirect light",
+            "rating": 4.6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 7,
+        "fields": {
+            "name": "Orchid",
+            "species": "Orchidaceae spp.",
+            "category": "flower",
+            "description": "Exotic and diverse flowering plants with intricate blooms.",
+            "price": 29.99,
+            "planting_conditions": "Orchid mix; filtered light",
+            "rating": 4.4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 8,
+        "fields": {
+            "name": "Chrysanthemum",
+            "species": "Chrysanthemum spp.",
+            "category": "flower",
+            "description": "Fall-blooming flowers with a wide range of colors, popular in gardens and as potted plants.",
+            "price": 13.25,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 9,
+        "fields": {
+            "name": "Petunia",
+            "species": "Petunia spp.",
+            "category": "flower",
+            "description": "Versatile annuals with trumpet-shaped flowers, excellent for borders, containers, and hanging baskets.",
+            "price": 10.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 10,
+        "fields": {
+            "name": "Water Lily",
+            "species": "Nymphaea spp.",
+            "category": "flower",
+            "description": "Aquatic plants with floating leaves and vibrant flowers, ideal for ponds and water features.",
+            "price": 24.50,
+            "planting_conditions": "Shallow water; full sun",
+            "rating": 4.2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 11,
+        "fields": {
+            "name": "Camellia",
+            "species": "Camellia japonica",
+            "category": "flower",
+            "description": "Evergreen shrubs with glossy leaves and showy flowers, thrive in cool climates.",
+            "price": 17.99,
+            "planting_conditions": "Well-drained soil; partial shade",
+            "rating": 4.5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 12,
+        "fields": {
+            "name": "Salvia",
+            "species": "Salvia spp.",
+            "category": "flower",
+            "description": "Flowering herbs with spikes of tubular flowers, attractive to pollinators.",
+            "price": 14.75,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.0
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 13,
+        "fields": {
+            "name": "Dahlia",
+            "species": "Dahlia spp.",
+            "category": "flower",
+            "description": "Summer and fall-blooming flowers with intricate and diverse blooms, popular for cut flower arrangements.",
+            "price": 16.99,
+            "planting_conditions": "Rich, well-drained soil; full sun",
+            "rating": 4.6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 14,
+        "fields": {
+            "name": "Hibiscus",
+            "species": "Hibiscus rosa-sinensis",
+            "category": "flower",
+            "description": "Plants with large, showy flowers in various colors, add a touch of exotic beauty to gardens.",
+            "price": 19.95,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 15,
+        "fields": {
+            "name": "Iris",
+            "species": "Iris spp.",
+            "category": "flower",
+            "description": "Perennials known for sword-shaped leaves and distinctive flowers, great for garden borders.",
+            "price": 12.99,
+            "planting_conditions": "Well-drained soil; full sun to partial shade",
+            "rating": 4.7
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 16,
+        "fields": {
+            "name": "African Violet",
+            "species": "Saintpaulia ionantha",
+            "category": "flower",
+            "description": "Compact, flower flowering plants with fuzzy leaves and colorful blooms.",
+            "price": 11.50,
+            "planting_conditions": "Well-drained soil; bright, indirect light",
+            "rating": 4.2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 17,
+        "fields": {
+            "name": "Marigold",
+            "species": "Marigold spp.",
+            "category": "flower",
+            "description": "Flowers with a wide range of colors, perfect for garden displays.",
+            "price": 14.25,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 18,
+        "fields": {
+            "name": "Sunflower",
+            "species": "Helianthus annuus",
+            "category": "flower",
+            "description": "Iconic flowers with large, yellow blooms, known for facing the sun.",
+            "price": 16.50,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.8
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 19,
+        "fields": {
+            "name": "Lily",
+            "species": "Lilium spp.",
+            "category": "flower",
+            "description": "Elegant flowers with trumpet-shaped blooms, ideal for borders and bouquets.",
+            "price": 21.99,
+            "planting_conditions": "Well-drained soil; partial to full sun",
+            "rating": 4.5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 20,
+        "fields": {
+            "name": "Carnation",
+            "species": "Dianthus caryophyllus",
+            "category": "flower",
+            "description": "Classic flowers with ruffled blooms, popular for cut flower arrangements and gardens.",
+            "price": 12.95,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.3
+        }
+    }
+]
