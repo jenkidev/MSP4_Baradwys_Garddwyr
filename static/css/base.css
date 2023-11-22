@@ -19,6 +19,14 @@ body {
     max-height: 10em;
 }
 
+.search-bar {
+    border-radius: 20px;
+}
+
+.search-button {
+    border-radius: 0px 20px 20px 0px !important;
+}
+
 .text-black {
     color: #000 !important;
 }
