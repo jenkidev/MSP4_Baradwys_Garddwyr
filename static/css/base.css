@@ -15,8 +15,8 @@ body {
 }
 
 .main-logo-img {
-    max-width: 20em;
-    max-height: 10em;
+    max-width: 15em;
+    max-height: 7.5em;
 }
 
 .search-bar {
@@ -25,6 +25,13 @@ body {
 
 .search-button {
     border-radius: 0px 20px 20px 0px !important;
+}
+
+.header-font {
+    margin-top: 1em;
+    color: #fff;
+    text-shadow: 5px 5px 5px #000;
+    font-size: 36px;
 }
 
 .site-blurb {
@@ -46,6 +53,16 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(50, 50, 50, 0.75);
+    z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
