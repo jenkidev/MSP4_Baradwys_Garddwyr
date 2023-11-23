@@ -1,7 +1,7 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-articles-link"
+            <a class="nav-font font-weight-bold nav-link text-black mr-5" href="#" id="all-articles-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Articles
             </a>
@@ -13,50 +13,29 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="flowers-link"
+            <a class="nav-font font-weight-bold nav-link text-black mr-5" href="#" id="products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Flowers
+                Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="flowers-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item">By Rating</a>
-                <a href="" class="dropdown-item">All Flowers</a>
+            <div class="dropdown-menu border-0" aria-labelledby="products-link">
+                <a href="" class="dropdown-item">Flowers</a>
+                <a href="" class="dropdown-item">Fruit</a>
+                <a href="" class="dropdown-item">Vegetables</a>
+                <a href="" class="dropdown-item">Equipment and Tools</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="fruit-link" data-toggle="dropdown"
+            <a class="nav-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                Fruit
+                Special Offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="fruit-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item">By Rating</a>
-                <a href="" class="dropdown-item">All Fruit</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="vegetables-link" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Vegetables
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="vegetables-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item">By Rating</a>
-                <a href="" class="dropdown-item">All Vegetables</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="equipment-and-tools-link" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Equipment and Tools
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="equipment-and-tools-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item">By Rating</a>
-                <a href="" class="dropdown-item">All Equipment and Tools</a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="" class="dropdown-item">New Arrivals</a>
+                <a href="" class="dropdown-item">Deals</a>
+                <a href="" class="dropdown-item">Clearance</a>
+                <a href="" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
