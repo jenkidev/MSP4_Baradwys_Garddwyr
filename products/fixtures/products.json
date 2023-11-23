@@ -392,6 +392,136 @@
     },
     {
         "model": "products.product",
+        "pk": 31,
+        "fields": {
+            "name": "Tomato Plant",
+            "species": "Solanum lycopersicum",
+            "category": "vegetable",
+            "description": "Popular garden plant producing flavorful tomatoes. Ideal for salads, sauces, and fresh snacks.",
+            "price": 8.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 32,
+        "fields": {
+            "name": "Bell Pepper Plant",
+            "species": "Capsicum annuum",
+            "category": "vegetable",
+            "description": "Versatile plant producing colorful bell peppers. Great for cooking, grilling, and fresh consumption.",
+            "price": 6.75,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.0
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 33,
+        "fields": {
+            "name": "Cucumber Plant",
+            "species": "Cucumis sativus",
+            "category": "vegetable",
+            "description": "Vining plant producing crisp cucumbers. Perfect for salads, pickling, and refreshing snacks.",
+            "price": 9.50,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 34,
+        "fields": {
+            "name": "Carrot Plant",
+            "species": "Daucus carota",
+            "category": "vegetable",
+            "description": "Root vegetable plant producing sweet and crunchy carrots. Excellent for cooking and snacking.",
+            "price": 5.99,
+            "planting_conditions": "Loose, well-drained soil; full sun",
+            "rating": 4.5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 35,
+        "fields": {
+            "name": "Zucchini Plant",
+            "species": "Cucurbita pepo",
+            "category": "vegetable",
+            "description": "Compact plant producing versatile zucchinis. Ideal for grilling, sautéing, and baking.",
+            "price": 7.25,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 36,
+        "fields": {
+            "name": "Spinach Plant",
+            "species": "Spinacia oleracea",
+            "category": "vegetable",
+            "description": "Leafy green plant rich in nutrients. Perfect for salads, smoothies, and various culinary dishes.",
+            "price": 4.99,
+            "planting_conditions": "Rich, well-drained soil; partial shade to full sun",
+            "rating": 4.4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 37,
+        "fields": {
+            "name": "Broccoli Plant",
+            "species": "Brassica oleracea",
+            "category": "vegetable",
+            "description": "Nutrient-packed plant producing broccoli florets. Excellent for steaming, roasting, and stir-frying.",
+            "price": 6.50,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 38,
+        "fields": {
+            "name": "Radish Plant",
+            "species": "Raphanus sativus",
+            "category": "vegetable",
+            "description": "Root vegetable plant with a crisp texture. Perfect for salads, garnishes, and snacking.",
+            "price": 4.25,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 39,
+        "fields": {
+            "name": "Kale Plant",
+            "species": "Brassica oleracea acephala",
+            "category": "vegetable",
+            "description": "Nutrient-dense leafy green plant. Great for salads, smoothies, and nutritious meals.",
+            "price": 5.75,
+            "planting_conditions": "Rich, well-drained soil; partial shade to full sun",
+            "rating": 4.2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 40,
+        "fields": {
+            "name": "Green Bean Plant",
+            "species": "Phaseolus vulgaris",
+            "category": "vegetable",
+            "description": "Climbing plant producing crisp green beans. Perfect for salads, side dishes, and stir-fries.",
+            "price": 8.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.4
+        }
+    },
+    {
+        "model": "products.product",
         "pk": 41,
         "fields": {
             "name": "Precision Pruning Shears",
