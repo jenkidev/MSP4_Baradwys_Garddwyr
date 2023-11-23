@@ -262,6 +262,136 @@
     },
     {
         "model": "products.product",
+        "pk": 21,
+        "fields": {
+            "name": "Apple Tree",
+            "species": "Malus domestica",
+            "category": "fruit",
+            "description": "The classic apple tree with a variety of cultivars, known for producing crisp and juicy apples.",
+            "price": 39.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 22,
+        "fields": {
+            "name": "Orange Tree",
+            "species": "Citrus sinensis",
+            "category": "fruit",
+            "description": "Citrus tree producing sweet and tangy oranges, perfect for fresh juices and snacks.",
+            "price": 44.50,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 23,
+        "fields": {
+            "name": "Peach Tree",
+            "species": "Prunus persica",
+            "category": "fruit",
+            "description": "Deciduous tree known for its delicious, fuzzy-skinned peaches, ideal for eating fresh or in desserts.",
+            "price": 49.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.2
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 24,
+        "fields": {
+            "name": "Pear Tree",
+            "species": "Pyrus communis",
+            "category": "fruit",
+            "description": "Fruit-bearing tree with sweet and juicy pears, a versatile fruit for fresh consumption or cooking.",
+            "price": 36.75,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.4
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 25,
+        "fields": {
+            "name": "Cherry Tree",
+            "species": "Prunus avium",
+            "category": "fruit",
+            "description": "Ornamental tree producing delicious cherries, perfect for snacking or adding to desserts.",
+            "price": 42.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.1
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 26,
+        "fields": {
+            "name": "Lemon Tree",
+            "species": "Citrus limon",
+            "category": "fruit",
+            "description": "Evergreen tree with tart and aromatic lemons, essential for culinary use and beverages.",
+            "price": 45.50,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.6
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 27,
+        "fields": {
+            "name": "Plum Tree",
+            "species": "Prunus domestica",
+            "category": "fruit",
+            "description": "Fruit-bearing tree with sweet and flavorful plums, suitable for eating fresh or making jams.",
+            "price": 38.25,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.3
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 28,
+        "fields": {
+            "name": "Apricot Tree",
+            "species": "Prunus armeniaca",
+            "category": "fruit",
+            "description": "Deciduous tree producing delicious apricots, perfect for fresh eating and preserves.",
+            "price": 47.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.5
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 29,
+        "fields": {
+            "name": "Fig Tree",
+            "species": "Ficus carica",
+            "category": "fruit",
+            "description": "Drought-tolerant tree bearing sweet and nutritious figs, excellent for fresh consumption or drying.",
+            "price": 34.50,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.0
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 30,
+        "fields": {
+            "name": "Grapevine",
+            "species": "Vitis vinifera",
+            "category": "fruit",
+            "description": "Climbing vine producing clusters of grapes, perfect for eating fresh or making wine.",
+            "price": 55.99,
+            "planting_conditions": "Well-drained soil; full sun",
+            "rating": 4.4
+        }
+    },
+    {
+        "model": "products.product",
         "pk": 41,
         "fields": {
             "name": "Precision Pruning Shears",
