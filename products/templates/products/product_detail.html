@@ -31,13 +31,20 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4 product-detail-font">
             <div class="product-details-container mb-5 mt-md-5">
+                <p class="mb-0">{{ product.name }}</p>
+                {% if product.species %}
+                <p class="mb-0">{{ product.species }}</p>
+                {% endif %}
                 <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                 {% if product.rating %}
                 <small class="text-muted text-black"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                 {% else %}
                 <small class="text-muted">No Rating</small>
                 {% endif %}
-                <p class="mt-3">{{ product.description }}</p>
+                <p class="mt-3">Description: {{ product.description }}</p>
+                {% if product.planting_conditions %}
+                <p class="mt-3">Planting conditions: {{ product.planting_conditions }}</p>
+                {% endif %}
             </div>
         </div>
     </div>
