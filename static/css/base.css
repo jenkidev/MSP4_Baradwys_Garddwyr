@@ -38,6 +38,20 @@ body {
     font-size: 36px;
 }
 
+.product-detail-header-font {
+    margin-top: 2em;
+    color: #000;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 36px;
+    text-decoration: underline solid black;
+}
+
+.product-detail-font {
+    color:#000;
+    font-size: 22px;
+    font-weight: 700;
+}
+
 .site-blurb {
     margin-top: 1em;
     color: #fff;
@@ -71,11 +85,11 @@ body {
 
 .overlay-product-detail {
     height: 100%;
-    width: 100%;
+    width: 80%;
     top: 0;
-    left: 0;
+    left: 10%;
     position: fixed;
-    background: #fff;
+    background: rgba(255,255,255, 0.9);
     z-index: -1;
 }
 

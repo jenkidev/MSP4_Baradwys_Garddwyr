@@ -12,7 +12,10 @@
 {% block content %}
 <div class="overlay-product-detail"></div>
 <div class="container-fluid">
-    <div class="row">
+    <div class="col text-center mt-3">
+        <h2 class="product-detail-header-font">Product Details</h2>
+    </div>
+    <div class="row text">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
             <div class="image-container my-5">
                 {% if product.image %}
@@ -26,12 +29,11 @@
                 {% endif %}
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 product-detail-font">
             <div class="product-details-container mb-5 mt-md-5">
-                <p class="mb-0">{{ product.name }}</p>
                 <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                 {% if product.rating %}
-                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                <small class="text-muted text-black"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                 {% else %}
                 <small class="text-muted">No Rating</small>
                 {% endif %}
