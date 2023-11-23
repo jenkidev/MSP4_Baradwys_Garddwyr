@@ -259,5 +259,115 @@
             "planting_conditions": "Well-drained soil; full sun",
             "rating": 4.3
         }
-    }
+    },
+    {
+        "model": "products.product",
+        "pk": 41,
+        "fields": {
+            "name": "Precision Pruning Shears",
+            "description": "Achieve immaculate garden precision with these sharp, scissor-like pruning shears. Ideal for cutting small branches and stems with ease.",
+            "price": 24.99,
+            "rating": 4.6,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 42,
+        "fields": {
+            "name": "Premium Garden Trowel",
+            "description": "Introducing the Premium Garden Trowel, the go-to hand tool for every gardener. Its pointed blade makes digging, planting, and soil cultivation a breeze.",
+            "price": 12.50,
+            "rating": 4.2,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 43,
+        "fields": {
+            "name": "Electric Hedge Trimmer",
+            "description": "Experience efficient hedge trimming with this Electric Hedge Trimmer. Powered with dual blades, it's designed for precise trimming and shaping of hedges and shrubs.",
+            "price": 49.95,
+            "rating": 4.4,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 44,
+        "fields": {
+            "name": "Pro Garden Rake",
+            "description": "Unleash the power of the Pro Garden Rake for leveling soil, clearing debris, and preparing the ground for planting. Essential for maintaining a picture-perfect garden.",
+            "price": 16.75,
+            "rating": 4.0,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 45,
+        "fields": {
+            "name": "Heavy-Duty Wheelbarrow",
+            "description": "Make your gardening tasks a breeze with this Heavy-Duty Wheelbarrow. Portable and built for durability, perfect for transporting soil, mulch, plants, and more.",
+            "price": 59.99,
+            "rating": 4.7,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 46,
+        "fields": {
+            "name": "ComfortGuard Gardening Gloves",
+            "description": "Protect your hands in style with ComfortGuard Gardening Gloves. Designed to shield against thorns, sharp objects, and soil. Provides a comfortable grip for every gardening adventure.",
+            "price": 9.99,
+            "rating": 4.5,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 47,
+        "fields": {
+            "name": "EcoFlow Watering Can",
+            "description": "Introducing the EcoFlow Watering Can — your eco-friendly companion for precise plant hydration. Sleek design with a spout ensures efficient and controlled water delivery.",
+            "price": 14.50,
+            "rating": 4.3,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 48,
+        "fields": {
+            "name": "Ultimate Garden Shovel",
+            "description": "Conquer any gardening task with the Ultimate Garden Shovel. Versatile tool with a broad, flat blade, perfect for digging, lifting, and moving soil and compost.",
+            "price": 19.95,
+            "rating": 4.6,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 49,
+        "fields": {
+            "name": "Elite Garden Hoe",
+            "description": "Master the art of cultivation and weeding with the Elite Garden Hoe. Designed with a flat blade for breaking up and aerating the soil while effortlessly removing weeds.",
+            "price": 18.25,
+            "rating": 4.1,
+            "category": "equipment_and_tools"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 50,
+        "fields": {
+            "name": "TurboSprout Garden Sprayer",
+            "description": "Take your garden to the next level with the TurboSprout Garden Sprayer. Handheld device for even distribution of pesticides, fertilizers, and water, keeping your plants healthy.",
+            "price": 29.99,
+            "rating": 4.4,
+            "category": "equipment_and_tools"
+        }
+    }    
 ]
