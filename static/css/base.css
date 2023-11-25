@@ -52,6 +52,15 @@ body {
     font-weight: 700;
 }
 
+.product-img-wrapper {
+    height: 10rem;
+    overflow: hidden;
+}
+
+.product-detail-img-wrapper {
+    height: 50%;
+}
+
 .site-blurb {
     margin-top: 1em;
     color: #fff;
