@@ -23,7 +23,8 @@
             "description": "Spring-blooming flowers with a wide range of colors and shapes.",
             "price": 12.49,
             "planting_conditions": "Well-drained soil; partial to full sun",
-            "rating": 4.0
+            "rating": 4.0,
+            "image": "tulips.jpg"
         }
     },
     {
@@ -36,7 +37,8 @@
             "description": "Cheerful yellow flowers in spring, easy to grow and excellent as cut flowers.",
             "price": 9.99,
             "planting_conditions": "Well-drained soil; full sun to partial shade",
-            "rating": 4.2
+            "rating": 4.2,
+            "image": "daffodil.jpg"
         }
     },
     {
@@ -49,7 +51,8 @@
             "description": "Fragrant herb with spikes of purple flowers, prized for aromatic foliage.",
             "price": 18.75,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.7
+            "rating": 4.7,
+            "image": "lavender.jpg"
         }
     },
     {
@@ -62,7 +65,8 @@
             "description": "Ornamental shrubs with pendulous flowers in various vibrant colors.",
             "price": 14.95,
             "planting_conditions": "Partial shade; moist, well-drained soil",
-            "rating": 4.3
+            "rating": 4.3,
+            "image": "fuschia.jpg"
         }
     },
     {
@@ -75,7 +79,8 @@
             "description": "Compact flowering plants with large, colorful blooms.",
             "price": 22.50,
             "planting_conditions": "Well-drained soil; bright, indirect light",
-            "rating": 4.6
+            "rating": 4.6,
+            "image": "gebera_daisy.jpg"
         }
     },
     {
@@ -88,7 +93,8 @@
             "description": "Exotic and diverse flowering plants with intricate blooms.",
             "price": 29.99,
             "planting_conditions": "Orchid mix; filtered light",
-            "rating": 4.4
+            "rating": 4.4,
+            "image": "orchid.jpg"
         }
     },
     {
@@ -101,7 +107,8 @@
             "description": "Fall-blooming flowers with a wide range of colors, popular in gardens and as potted plants.",
             "price": 13.25,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.1
+            "rating": 4.1,
+            "image": "chrysanthemum.jpg"
         }
     },
     {
@@ -114,7 +121,8 @@
             "description": "Versatile annuals with trumpet-shaped flowers, excellent for borders, containers, and hanging baskets.",
             "price": 10.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.8
+            "rating": 4.8,
+            "image": "petunia.jpg"
         }
     },
     {
@@ -127,7 +135,8 @@
             "description": "Aquatic plants with floating leaves and vibrant flowers, ideal for ponds and water features.",
             "price": 24.50,
             "planting_conditions": "Shallow water; full sun",
-            "rating": 4.2
+            "rating": 4.2,
+            "image": "water_lily.jpg"
         }
     },
     {
@@ -140,7 +149,8 @@
             "description": "Evergreen shrubs with glossy leaves and showy flowers, thrive in cool climates.",
             "price": 17.99,
             "planting_conditions": "Well-drained soil; partial shade",
-            "rating": 4.5
+            "rating": 4.5,
+            "image": "camelia.jpg"
         }
     },
     {
@@ -153,7 +163,8 @@
             "description": "Flowering herbs with spikes of tubular flowers, attractive to pollinators.",
             "price": 14.75,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.0
+            "rating": 4.0,
+            "image": "salvia.jpg"
         }
     },
     {
@@ -166,7 +177,8 @@
             "description": "Summer and fall-blooming flowers with intricate and diverse blooms, popular for cut flower arrangements.",
             "price": 16.99,
             "planting_conditions": "Rich, well-drained soil; full sun",
-            "rating": 4.6
+            "rating": 4.6,
+            "image": "dahlia.jpg"
         }
     },
     {
@@ -179,7 +191,8 @@
             "description": "Plants with large, showy flowers in various colors, add a touch of exotic beauty to gardens.",
             "price": 19.95,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.3
+            "rating": 4.3,
+            "image": "hibiscus.jpg"
         }
     },
     {
@@ -192,7 +205,8 @@
             "description": "Perennials known for sword-shaped leaves and distinctive flowers, great for garden borders.",
             "price": 12.99,
             "planting_conditions": "Well-drained soil; full sun to partial shade",
-            "rating": 4.7
+            "rating": 4.7,
+            "image": "iris.jpg"
         }
     },
     {
@@ -205,7 +219,8 @@
             "description": "Compact, flower flowering plants with fuzzy leaves and colorful blooms.",
             "price": 11.50,
             "planting_conditions": "Well-drained soil; bright, indirect light",
-            "rating": 4.2
+            "rating": 4.2,
+            "image": "african_violet.jpg"
         }
     },
     {
@@ -218,7 +233,8 @@
             "description": "Flowers with a wide range of colors, perfect for garden displays.",
             "price": 14.25,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.4
+            "rating": 4.4,
+            "image": "marigold.jpg"
         }
     },
     {
@@ -231,7 +247,8 @@
             "description": "Iconic flowers with large, yellow blooms, known for facing the sun.",
             "price": 16.50,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.8
+            "rating": 4.8,
+            "image": "sunflower.jpg"
         }
     },
     {
@@ -244,7 +261,8 @@
             "description": "Elegant flowers with trumpet-shaped blooms, ideal for borders and bouquets.",
             "price": 21.99,
             "planting_conditions": "Well-drained soil; partial to full sun",
-            "rating": 4.5
+            "rating": 4.5,
+            "image": "lily.jpg"
         }
     },
     {
@@ -257,7 +275,8 @@
             "description": "Classic flowers with ruffled blooms, popular for cut flower arrangements and gardens.",
             "price": 12.95,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.3
+            "rating": 4.3,
+            "image": "carnation.jpg"
         }
     },
     {
@@ -270,7 +289,8 @@
             "description": "The classic apple tree with a variety of cultivars, known for producing crisp and juicy apples.",
             "price": 39.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.5
+            "rating": 4.5,
+            "image": "apple_tree.jpg"
         }
     },
     {
@@ -283,7 +303,8 @@
             "description": "Citrus tree producing sweet and tangy oranges, perfect for fresh juices and snacks.",
             "price": 44.50,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.3
+            "rating": 4.3,
+            "image": "orange_tree.jpg"
         }
     },
     {
@@ -296,7 +317,8 @@
             "description": "Deciduous tree known for its delicious, fuzzy-skinned peaches, ideal for eating fresh or in desserts.",
             "price": 49.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.2
+            "rating": 4.2,
+            "image": "peach_tree.jpg"
         }
     },
     {
@@ -309,7 +331,8 @@
             "description": "Fruit-bearing tree with sweet and juicy pears, a versatile fruit for fresh consumption or cooking.",
             "price": 36.75,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.4
+            "rating": 4.4,
+            "image": "pear_tree.jpg"
         }
     },
     {
@@ -322,7 +345,8 @@
             "description": "Ornamental tree producing delicious cherries, perfect for snacking or adding to desserts.",
             "price": 42.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.1
+            "rating": 4.1,
+            "image": "cherry_tree.jpg"
         }
     },
     {
@@ -335,7 +359,8 @@
             "description": "Evergreen tree with tart and aromatic lemons, essential for culinary use and beverages.",
             "price": 45.50,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.6
+            "rating": 4.6,
+            "image": "lemon_tree.jpg"
         }
     },
     {
@@ -348,7 +373,8 @@
             "description": "Fruit-bearing tree with sweet and flavorful plums, suitable for eating fresh or making jams.",
             "price": 38.25,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.3
+            "rating": 4.3,
+            "image": "plum_tree.jpg"
         }
     },
     {
@@ -361,7 +387,8 @@
             "description": "Deciduous tree producing delicious apricots, perfect for fresh eating and preserves.",
             "price": 47.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.5
+            "rating": 4.5,
+            "image": "apricot_tree.jpg"
         }
     },
     {
@@ -374,7 +401,8 @@
             "description": "Drought-tolerant tree bearing sweet and nutritious figs, excellent for fresh consumption or drying.",
             "price": 34.50,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.0
+            "rating": 4.0,
+            "image": "fig_tree.jpg"
         }
     },
     {
@@ -387,7 +415,8 @@
             "description": "Climbing vine producing clusters of grapes, perfect for eating fresh or making wine.",
             "price": 55.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.4
+            "rating": 4.4,
+            "image": "grapevine.jpg"
         }
     },
     {
@@ -400,7 +429,8 @@
             "description": "Popular garden plant producing flavorful tomatoes. Ideal for salads, sauces, and fresh snacks.",
             "price": 8.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.2
+            "rating": 4.2,
+            "image": "tomato_plant.jpg"
         }
     },
     {
@@ -413,7 +443,8 @@
             "description": "Versatile plant producing colorful bell peppers. Great for cooking, grilling, and fresh consumption.",
             "price": 6.75,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.0
+            "rating": 4.0,
+            "image": "bell_pepper_plant.jpg"
         }
     },
     {
@@ -426,7 +457,8 @@
             "description": "Vining plant producing crisp cucumbers. Perfect for salads, pickling, and refreshing snacks.",
             "price": 9.50,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.3
+            "rating": 4.3,
+            "image": "cucumber_plant.jpg"
         }
     },
     {
@@ -439,7 +471,8 @@
             "description": "Root vegetable plant producing sweet and crunchy carrots. Excellent for cooking and snacking.",
             "price": 5.99,
             "planting_conditions": "Loose, well-drained soil; full sun",
-            "rating": 4.5
+            "rating": 4.5,
+            "image": "carrot_plant.jpg"
         }
     },
     {
@@ -452,7 +485,8 @@
             "description": "Compact plant producing versatile zucchinis. Ideal for grilling, sautéing, and baking.",
             "price": 7.25,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.1
+            "rating": 4.1,
+            "image": "zucchini_plant.jpg"
         }
     },
     {
@@ -465,7 +499,8 @@
             "description": "Leafy green plant rich in nutrients. Perfect for salads, smoothies, and various culinary dishes.",
             "price": 4.99,
             "planting_conditions": "Rich, well-drained soil; partial shade to full sun",
-            "rating": 4.4
+            "rating": 4.4,
+            "image": "spinach_plant.jpg"
         }
     },
     {
@@ -478,7 +513,8 @@
             "description": "Nutrient-packed plant producing broccoli florets. Excellent for steaming, roasting, and stir-frying.",
             "price": 6.50,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.6
+            "rating": 4.6,
+            "image": "broccoli_plant.jpg"
         }
     },
     {
@@ -491,7 +527,8 @@
             "description": "Root vegetable plant with a crisp texture. Perfect for salads, garnishes, and snacking.",
             "price": 4.25,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.3
+            "rating": 4.3,
+            "image": "radish_plant.jpg"
         }
     },
     {
@@ -504,7 +541,8 @@
             "description": "Nutrient-dense leafy green plant. Great for salads, smoothies, and nutritious meals.",
             "price": 5.75,
             "planting_conditions": "Rich, well-drained soil; partial shade to full sun",
-            "rating": 4.2
+            "rating": 4.2,
+            "image": "kale_plant.jpg"
         }
     },
     {
@@ -517,7 +555,8 @@
             "description": "Climbing plant producing crisp green beans. Perfect for salads, side dishes, and stir-fries.",
             "price": 8.99,
             "planting_conditions": "Well-drained soil; full sun",
-            "rating": 4.4
+            "rating": 4.4,
+            "image": "greenbean_plant.jpg"
         }
     },
     {
@@ -528,7 +567,8 @@
             "description": "Achieve immaculate garden precision with these sharp, scissor-like pruning shears. Ideal for cutting small branches and stems with ease.",
             "price": 24.99,
             "rating": 4.6,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "pruning_shears.jpg"
         }
     },
     {
@@ -539,7 +579,8 @@
             "description": "Introducing the Premium Garden Trowel, the go-to hand tool for every gardener. Its pointed blade makes digging, planting, and soil cultivation a breeze.",
             "price": 12.50,
             "rating": 4.2,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "garden_trowel.jpg"
         }
     },
     {
@@ -550,7 +591,8 @@
             "description": "Experience efficient hedge trimming with this Electric Hedge Trimmer. Powered with dual blades, it's designed for precise trimming and shaping of hedges and shrubs.",
             "price": 49.95,
             "rating": 4.4,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "hedge_trimmer.jpg"
         }
     },
     {
@@ -561,7 +603,8 @@
             "description": "Unleash the power of the Pro Garden Rake for leveling soil, clearing debris, and preparing the ground for planting. Essential for maintaining a picture-perfect garden.",
             "price": 16.75,
             "rating": 4.0,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "garden_rake.jpg"
         }
     },
     {
@@ -572,7 +615,8 @@
             "description": "Make your gardening tasks a breeze with this Heavy-Duty Wheelbarrow. Portable and built for durability, perfect for transporting soil, mulch, plants, and more.",
             "price": 59.99,
             "rating": 4.7,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "wheelbarrow.jpg"
         }
     },
     {
@@ -583,7 +627,8 @@
             "description": "Protect your hands in style with ComfortGuard Gardening Gloves. Designed to shield against thorns, sharp objects, and soil. Provides a comfortable grip for every gardening adventure.",
             "price": 9.99,
             "rating": 4.5,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "gardening_gloves.jpg"
         }
     },
     {
@@ -594,7 +639,8 @@
             "description": "Introducing the EcoFlow Watering Can — your eco-friendly companion for precise plant hydration. Sleek design with a spout ensures efficient and controlled water delivery.",
             "price": 14.50,
             "rating": 4.3,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "watering_can.jpg"
         }
     },
     {
@@ -605,7 +651,8 @@
             "description": "Conquer any gardening task with the Ultimate Garden Shovel. Versatile tool with a broad, flat blade, perfect for digging, lifting, and moving soil and compost.",
             "price": 19.95,
             "rating": 4.6,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "shovel.jpg"
         }
     },
     {
@@ -616,7 +663,8 @@
             "description": "Master the art of cultivation and weeding with the Elite Garden Hoe. Designed with a flat blade for breaking up and aerating the soil while effortlessly removing weeds.",
             "price": 18.25,
             "rating": 4.1,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "hoe.jpg"
         }
     },
     {
@@ -627,7 +675,8 @@
             "description": "Take your garden to the next level with the TurboSprout Garden Sprayer. Handheld device for even distribution of pesticides, fertilizers, and water, keeping your plants healthy.",
             "price": 29.99,
             "rating": 4.4,
-            "category": "equipment_and_tools"
+            "category": "equipment_and_tools",
+            "image": "garden_sprayer.jpg"
         }
     }    
 ]
