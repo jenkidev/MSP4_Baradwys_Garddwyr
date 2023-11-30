@@ -114,6 +114,10 @@ footer {
     width: 100%;
 }
 
+.social-link {
+    font-size: 36px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
