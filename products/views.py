@@ -22,7 +22,6 @@ def all_products(request):
 
             queries = Q(name__icontains=query) | Q(
                 description__icontains=query) | Q(
-                category__icontains=query) | Q(
                 planting_conditions__icontains=query)
             products = products.filter(queries)
 
