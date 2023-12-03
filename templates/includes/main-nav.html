@@ -18,10 +18,10 @@
                 Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="products-link">
-                <a href="" class="dropdown-item">Flowers</a>
-                <a href="" class="dropdown-item">Fruit</a>
-                <a href="" class="dropdown-item">Vegetables</a>
-                <a href="" class="dropdown-item">Equipment and Tools</a>
+                <a href="{% url 'products' %}?category=flower" class="dropdown-item">Flowers</a>
+                <a href="{% url 'products' %}?category=fruit" class="dropdown-item">Fruit</a>
+                <a href="{% url 'products' %}?category=vegetable" class="dropdown-item">Vegetables</a>
+                <a href="{% url 'products' %}?category=equipment_and_tools" class="dropdown-item">Equipment and Tools</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
