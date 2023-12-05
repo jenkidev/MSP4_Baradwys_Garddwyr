@@ -1,0 +1,13 @@
+[
+    {
+        "model": "articles.article",
+        "pk": 1,
+        "fields": {
+            "title": "The Benefits of Companion Planting in Your Garden",
+            "blurb": "Rosa spp.",
+            "content": "Companion planting is a sustainable and holistic gardening approach that involves cultivating mutually beneficial relationships between different plants. This technique harnesses the power of biodiversity, creating a natural ecosystem within your garden. By strategically placing crops with complementary characteristics, gardeners can enhance growth, deter pests, and promote overall plant health. One classic example of companion planting is the combination of tomatoes and basil. Basil not only enhances the flavor of tomatoes but also helps protect them from certain pests. Marigolds are another excellent companion for various vegetables as they are known to repel nematodes. These interactions create a harmonious environment where plants work together for mutual benefit, reducing the need for chemical pesticides and fostering sustainable gardening practices. In addition to pest management, companion planting can improve soil health. Legumes, such as peas and beans, have nitrogen-fixing properties that enhance soil fertility. Planting them alongside heavy-feeders like corn or tomatoes can contribute essential nutrients to the soil, promoting healthier and more robust plant growth. Embracing companion planting requires thoughtful planning and consideration of each plant's characteristics. Understanding the synergies between different species allows you to create a balanced and resilient garden. As you experiment with companion planting, you'll discover unique combinations that work well for your specific gardening conditions, leading to a more vibrant and thriving outdoor space.",
+            "rating": 4.3,
+            "image": "roses.jpg"
+        }
+    }
+]
