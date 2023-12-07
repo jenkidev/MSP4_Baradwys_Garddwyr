@@ -18,7 +18,7 @@ def all_articles(request):
 def article_details(request, article_id):
     """ A view to return detail page of articles """
 
-    article = get_object_or_404(Product, pk=product_id)
+    article = get_object_or_404(Article, pk=article_id)
 
     context = {
         'article': article 
