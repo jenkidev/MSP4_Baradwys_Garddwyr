@@ -22,7 +22,7 @@
                     <div class="card h-100 border-0">
                         {% if article.image %}
                         <div class="product-img-wrapper">
-                            <a href="">
+                            <a href="{% url 'article_details' article.id %}">
                                 <img class="card-img-top img-fluid" src="{{ article.image.url }}"
                                     alt="{{ article.title }}" />
                             </a>
