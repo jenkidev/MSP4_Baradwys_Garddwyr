@@ -56,8 +56,12 @@ body {
     font-weight: 700;
 }
 
+.img-fluid {
+    height: 100%;
+}
+
 .product-img-wrapper {
-    height: 10rem;
+    height: 15rem;
     overflow: hidden;
 }
 
