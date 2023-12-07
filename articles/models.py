@@ -4,6 +4,7 @@ from django.db import models
 
 class Article(models.Model):
     title = models.CharField(max_length=254)
+    date = models.DateField(auto_now=True)
     blurb = models.CharField(max_length=508)
     content = models.TextField()
     rating = models.DecimalField(

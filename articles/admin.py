@@ -7,6 +7,7 @@ class ArticleAdmin(admin.ModelAdmin):
     list_display = (
         'pk',
         'title',
+        'date',
         'blurb',
         'content',
         'rating',
