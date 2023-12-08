@@ -1,4 +1,5 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
 from .models import Article
 
 # Create your views here.
@@ -7,9 +8,30 @@ def all_articles(request):
     """ A view to return all articles """
 
     articles = Article.objects.all()
+    
+    query = None
+    sort = None
+    direction = None
+
+    if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+            if sortkey == 'name':
+                sortkey = 'lower_name'
+                articles = articles.annotate(lower_name=Lower('name'))
+
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+            articles = articles.order_by(sortkey)
+
+
+    current_sorting = f'{sort}_{direction}'
 
     context = {
-        'articles': articles 
+        'articles' : articles
     }
 
     return render(request, 'articles/articles.html', context)

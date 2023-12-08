@@ -17,7 +17,7 @@ def all_products(request):
 
     if request.GET:
         if 'sort' in request.GET:
-            sortkey = request.GET('sort')
+            sortkey = request.GET['sort']
             sort = sortkey
             if sortkey == 'name':
                 sortkey = 'lower_name'
