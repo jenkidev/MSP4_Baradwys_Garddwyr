@@ -38,6 +38,10 @@ body {
     font-size: 36px;
 }
 
+.delivery-message {
+    background-color: #000;
+}
+
 .container {
     margin-bottom: 3em;
 }
