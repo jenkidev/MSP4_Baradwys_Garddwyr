@@ -126,6 +126,12 @@ footer {
     font-size: 36px;
 }
 
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 .btn-outline-black {
     background: white;
     color: black !important;
