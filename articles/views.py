@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+
 from .models import Article
 from .forms import ArticleForm
 
@@ -50,8 +51,18 @@ def article_details(request, article_id):
     return render(request, 'articles/article_details.html', context)
 
 def add_article(request):
-    """ Add a product to the store """
-    form = ArticleForm()
+    """ Add an article to the site """
+    if request.method == 'POST':
+        form = ArticleForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully added article!')
+            return redirect(reverse('add_article'))
+        else:
+            messages.error(request, 'Failed to add article. Please ensure the form is valid.')
+    else:
+        form = ArticleForm()
+        
     template = 'articles/add_article.html'
     context = {
         'form': form,

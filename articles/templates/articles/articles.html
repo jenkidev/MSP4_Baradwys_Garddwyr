@@ -28,7 +28,7 @@
                             </a>
                         </div>
                         {% else %}
-                        <a href="">
+                        <a href="{% url 'article_details' article.id %}">
                             <img class="product-img-wrapper card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
                                 alt="{{ article.title }}" />
                         </a>
