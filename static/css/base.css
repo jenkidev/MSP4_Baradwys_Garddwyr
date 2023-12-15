@@ -118,6 +118,10 @@ hr {
     background-color: #fff;
 }
 
+.add-product-input {
+    width: 100%;
+}
+
 footer {
     width: 100%;
 }
@@ -144,6 +148,10 @@ footer {
 .btn-outline-black:focus {
     background: black;
     color: white !important;
+}
+
+.textInput {
+    width: 100%;
 }
 
 /* ------------------------------- bootstrap toasts */
