@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from .models import Article
+from .forms import ArticleForm
 
 # Create your views here.
 
@@ -47,3 +48,13 @@ def article_details(request, article_id):
     }
 
     return render(request, 'articles/article_details.html', context)
+
+def add_article(request):
+    """ Add a product to the store """
+    form = ArticleForm()
+    template = 'articles/add_article.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)

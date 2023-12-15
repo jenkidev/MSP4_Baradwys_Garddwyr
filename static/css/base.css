@@ -154,6 +154,10 @@ footer {
     width: 100%;
 }
 
+.textarea {
+    width: 100%;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
