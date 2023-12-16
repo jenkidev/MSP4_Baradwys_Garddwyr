@@ -6,7 +6,7 @@ from products.models import Product, Category
 class TestViews(TestCase):
 
     def test_see_all_products(self):
-        """test view to see all products"""
+        """testing view to see all products"""
 
         response = self.client.get('/products/')
         self.assertEqual(response.status_code, 200)
@@ -15,7 +15,7 @@ class TestViews(TestCase):
         self.assertTemplateUsed(response, template)
 
     def test_see_product_details(self):
-        """test view to see product details"""
+        """testing view to see the product details"""
 
         category = Category.objects.create(
             name='flower',
