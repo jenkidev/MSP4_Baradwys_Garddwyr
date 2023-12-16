@@ -32,6 +32,17 @@ class Product(models.Model):
     clearance = (models.BooleanField(default=False, null=True, blank=True))
     image = models.ImageField(null=True, blank=True)
 
+    def get_rating(self):
+        reviews_total = 0
+
+        for review in self.reviews.all():
+            reviews_total += review.rating
+        
+        if reviews_total > 0:
+            return reviews_total / self.reviews.count()
+        
+        return 'No rating'
+
     def __str__(self):
         return self.name
 
