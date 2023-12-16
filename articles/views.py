@@ -96,3 +96,14 @@ def edit_article(request, article_id):
     }
 
     return render(request, template, context)
+
+def delete_article(request, article_id):
+    """ Delete a article from the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+        
+    article = get_object_or_404(Article, pk=article_id)
+    article.delete()
+    messages.success(request, 'article deleted!')
+    return redirect(reverse('articles'))
