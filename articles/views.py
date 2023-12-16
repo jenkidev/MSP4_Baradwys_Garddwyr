@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
-
+from django.contrib.auth.decorators import login_required
 from .models import Article
 from .forms import ArticleForm
 
@@ -50,6 +50,7 @@ def article_details(request, article_id):
 
     return render(request, 'articles/article_details.html', context)
 
+@login_required
 def add_article(request):
     """ Add an article to the site """
     if request.method == 'POST':
@@ -70,6 +71,7 @@ def add_article(request):
 
     return render(request, template, context)
 
+@login_required
 def edit_article(request, article_id):
     """ Edit a article in the store """
     if not request.user.is_superuser:
@@ -97,6 +99,7 @@ def edit_article(request, article_id):
 
     return render(request, template, context)
 
+@login_required
 def delete_article(request, article_id):
     """ Delete a article from the store """
     if not request.user.is_superuser:
