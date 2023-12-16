@@ -69,3 +69,30 @@ def add_article(request):
     }
 
     return render(request, template, context)
+
+def edit_article(request, article_id):
+    """ Edit a article in the store """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    article = get_object_or_404(Article, pk=article_id)
+    if request.method == 'POST':
+        form = ArticleForm(request.POST, request.FILES, instance=article)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated article!')
+            return redirect(reverse('article_details', args=[article.id]))
+        else:
+            messages.error(request, 'Failed to update article. Please ensure the form is valid.')
+    else:
+        form = ArticleForm(instance=article)
+        messages.info(request, f'You are editing {article.title}')
+
+    template = 'articles/edit_article.html'
+    context = {
+        'form': form,
+        'article': article,
+    }
+
+    return render(request, template, context)
