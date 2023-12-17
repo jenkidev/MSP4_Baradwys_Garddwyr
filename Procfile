@@ -1,1 +1,1 @@
-web: gunicorn baradwys-garddwyr.wsgi:application
+web: gunicorn baradwys_garddwyr.wsgi:application
