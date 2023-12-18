@@ -27,6 +27,8 @@ SECRET_KEY = 'lrdcxlu_wz3@+e2%#vf@h@0^y52f$dd7q#apn3vxuhz*zyajhq'
 DEBUG = True
 
 ALLOWED_HOSTS = ['8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com','baradwys-garddwyr-5f5ecb0daff3.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com', 'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com' ]
+CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com', 'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com' ]
 
 
 # Application definition
