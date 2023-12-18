@@ -30,6 +30,8 @@ class Product(models.Model):
     rating = models.DecimalField(
         max_digits=6, decimal_places=2, null=True, blank=True)
     clearance = (models.BooleanField(default=False, null=True, blank=True))
+    new_arrival = (models.BooleanField(default=False, null=True, blank=True))
+    deals = (models.BooleanField(default=False, null=True, blank=True))
     image = models.ImageField(null=True, blank=True)
 
     def get_rating(self):
