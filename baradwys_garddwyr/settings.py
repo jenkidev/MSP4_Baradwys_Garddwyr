@@ -209,9 +209,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
 
-if 'DEVELOPMENT' in os.environ:
+if bool(os.environ.get('DEVELOPMENT')):
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_FROM_EMAIL = 'baradwysgarddwyr@example.com'
+    DEFAULT_FROM_EMAIL = 'info@baradwysgarddwyr.com'
 else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
