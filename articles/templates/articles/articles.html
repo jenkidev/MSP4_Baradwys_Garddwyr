@@ -68,15 +68,14 @@
                 <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
                     <hr />
                 </div>
-                {% endif %} {% if forloop.counter|divisibleby:3 %}
-                <div class="col-12 d-none d-lg-block d-xl-none mb-5">
+                {% endif %} 
+                
+                {% if forloop.counter|divisibleby:3 %}
+                <div class="col-12 d-none d-lg-block mb-5">
                     <hr />
                 </div>
-                {% endif %} {% if forloop.counter|divisibleby:4 %}
-                <div class="col-12 d-none d-xl-block mb-5">
-                    <hr />
-                </div>
-                {% endif %} {% endfor %}
+                {% endif %} 
+            {% endfor %}
             </div>
         </div>
     </div>
