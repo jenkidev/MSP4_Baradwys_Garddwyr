@@ -12,11 +12,11 @@
 {% block content %}
 <div class="overlay-product-detail"></div>
 <div class="container-fluid">
-    <div class="col text-center mt-3">
+    <div class="col-sm-8 offset-sm-2 text-center mt-3">
         <h2 class="product-detail-header-font">{{ article.title }}</h2>
     </div>
     <div class="row text">
-        <div class="col-12 col-md-6 col-lg-6 offset-lg-3">
+        <div class="col-sm-8 offset-sm-2 col-md-6 col-lg-6 offset-lg-3">
             <div class="image-container my-5">
                 {% if article.image %}
                 <div class="product-detail-img-wrapper">
@@ -33,7 +33,7 @@
         </div>
     </div>   
     <div class="row text">
-        <div class="col-12 col-md-8 col-lg-8 offset-lg-2 product-detail-font">
+        <div class="col-sm-8 offset-sm-2 col-md-8 col-lg-8 offset-lg-2 product-detail-font">
             <div class="product-details-container mb-5 mt-md-5">
                 <p class="font-italic">{{ article.blurb }}</p>
                 <p class="lead mt-5 text-left font-weight-bold">{{ article.content }}</p>
