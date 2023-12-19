@@ -33,13 +33,13 @@ class Product(models.Model):
     image = models.ImageField(null=True, blank=True)
 
     def get_rating(self):
-        article_reviews_total = 0
+        reviews_total = 0
 
-        for article_review in self.article_reviews.all():
-            article_reviews_total += article_review.rating
+        for review in self.reviews.all():
+            reviews_total += review.rating
         
-        if article_reviews_total > 0:
-            return article_reviews_total / self.article_reviews.count()
+        if reviews_total > 0:
+            return reviews_total / self.reviews.count()
         
         return 'No rating'
 
