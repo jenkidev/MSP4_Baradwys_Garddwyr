@@ -44,7 +44,7 @@
                                         {{ article.date }}
                                     </p>
                                     {% if article.rating %}
-                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ article.rating }} /
+                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ article.get_rating }} /
                                         5</small>
                                     {% else %}
                                     <small class="text-muted">No Rating</small>

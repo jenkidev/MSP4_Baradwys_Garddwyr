@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .models import Article
+from .models import Article, ArticleReview
 from .forms import ArticleForm
 
 # Create your views here.
@@ -47,6 +47,28 @@ def article_details(request, article_id):
     context = {
         'article': article 
     }
+
+    if request.method == 'POST':
+        rating = request.POST.get('rating', 3)
+        content = request.POST.get('content', '')
+
+        if content:
+            reviews = ArticleReview.objects.filter(created_by=request.user, article=article)
+
+            if reviews.count() > 0:
+                review = reviews.first()
+                review.rating = rating
+                review.content = content
+                review.save()
+            else:
+                review = Review.objects.create(
+                    article=article,
+                    rating=rating,
+                    content=content,
+                    created_by=request.user
+                )
+
+            return redirect('.', pk=article_id)
 
     return render(request, 'articles/article_details.html', context)
 

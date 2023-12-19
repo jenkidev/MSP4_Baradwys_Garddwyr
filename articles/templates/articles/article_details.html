@@ -47,5 +47,43 @@
             </div>
         </div>
     </div>
+    <div class="col-8 offset-2">
+        <h2 class="text-center text-black">Reviews</h2>
+        <hr class="bg-dark">
+        {% if request.user.is_authenticated %}
+        <form method="post" action="." class="bg-light p-3">
+            {% csrf_token %}
+            <div>
+                <label>
+                    <h3>Rating</h3>
+                </label><br>
+                <select name="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3" selected>3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div>
+                <label>
+                    <h3>Comment</h3>
+                </label><br>
+                <textarea class="textarea" name="content"></textarea>
+            </div>
+            <div>
+                <button class="btn-outline-black">Submit</button>
+            </div>
+        </form>
+        {% endif %}
+        {% for article_review in article.article_reviews.all %}
+        <div class="px-4 text-left py-6 bg-dark text-white my-2">
+            <strong>Rating:</strong> {{ article_review.rating }}/5<br>
+            <strong>Comment:</strong> {{ article_review.content }}<br>
+            <strong>Date:</strong> {{ article_review.created_at|date:"Y-m-d" }}<br>
+            <strong>User:</strong> {{ article_review.created_by }}<br>
+        </div>
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}
