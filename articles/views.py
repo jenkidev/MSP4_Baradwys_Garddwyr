@@ -10,7 +10,6 @@ def all_articles(request):
     """ A view to return all articles """
 
     articles = Article.objects.all()
-    
     query = None
     sort = None
     direction = None
