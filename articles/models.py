@@ -13,14 +13,14 @@ class Article(models.Model):
     image = models.ImageField(null=True, blank=True)
 
     def get_rating(self):
-        reviews_total = 0
+        article_reviews_total = 0
 
-        for review in self.reviews.all():
+        for article_review in self.article_reviews.all():
             article_reviews_total += article_review.rating
-        
-        if reviews_total > 0:
-            return reviews_total / self.reviews.count()
-        
+
+        if article_reviews_total > 0:
+            return article_reviews_total / self.article_reviews.count()
+
         return 'No rating'
 
     def __str__(self):
