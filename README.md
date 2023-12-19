@@ -1,39 +1,211 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Baradwys Garddwyr E-Commerce Website
 
-Welcome,
+(by Morgan Jenkins)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Live Project]
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Table of Contents
 
-## Codeanywhere Reminders
+- [Baradwys Garddwyr E-Commerce Website](#baradwys-garddwyr-e-commerce-website)
+  - [Table of Contents](#table-of-contents)
+  - [Project Goals](#project-goals)
+    - [User Goals](#user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+  - [User Experience](#user-experience)
+    - [Target Audience](#target-audience)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
+    - [User Stories](#user-stories)
+      - [First-time User](#first-time-user)
+      - [Returning User](#returning-user)
+      - [Site Owner](#site-owner)
+  - [Scope](#scope)
+  - [Design of Site](#design-of-site)
+    - [Initial idea](#initial-idea)
+    - [Wireframes](#wireframes)
+    - [Site Layout](#site-layout)
+    - [User Path](#user-path)
+    - [Database Structure](#database-structure)
+    - [Colour Choices](#colour-choices)
+    - [Fonts](#fonts)
+  - [Technologies Implemented](#technologies-implemented)
+    - [Languages](#languages)
+    - [Tools](#tools)
+  - [Site Features](#site-features)
+  - [Testing](#testing)
+    - [Validation](#validation)
+      - [HTML Validation- W3C markup validation service was used to assess the validity of my HTML code](#html-validation--w3c-markup-validation-service-was-used-to-assess-the-validity-of-my-html-code)
+      - [CSS Validation- W3C CSS validation service was used to assess the validity of my CSS code](#css-validation--w3c-css-validation-service-was-used-to-assess-the-validity-of-my-css-code)
+      - [JavaScript Validation- JS hint was used to assess the validity of my scripts](#javascript-validation--js-hint-was-used-to-assess-the-validity-of-my-scripts)
+      - [Python Validation- The CI python linter was used to assess the the validity of my python file](#python-validation--the-ci-python-linter-was-used-to-assess-the-the-validity-of-my-python-file)
+    - [Performance and Accessibility](#performance-and-accessibility)
+    - [Device Tests](#device-tests)
+    - [Responsiveness](#responsiveness)
+    - [User Story Tests](#user-story-tests)
+    - [First Time User](#first-time-user-1)
+    - [Returning User](#returning-user-1)
+    - [Site Owner](#site-owner-1)
+  - [Bug Squashing](#bug-squashing)
+  - [Deployment](#deployment)
+    - [Project Creation](#project-creation)
+    - [Deployment to Heroku](#deployment-to-heroku)
+  - [Credits](#credits)
+  - [Thank You](#thank-you)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+### User Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
 
-`http_server`
+### Site Owner Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## User Experience
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Target Audience
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Requirements and Expectations
 
----
+* Easy to navigate site and intuitive design.
 
-Happy coding!
+
+### User Stories
+
+#### First-time User
+
+
+#### Returning User
+
+
+#### Site Owner
+
+
+## Scope
+
+The scope of the project in it’s first release is defined by the following features:
+
+
+## Design of Site
+
+### Initial idea
+
+
+
+### Wireframes
+
+To create the wireframes for this site I used the balsamiq cloud service. This allowed me to create a more basic wireframe. This was helpful as I have found in the past having a more complex and detailed wireframe to be quite restricting.
+
+
+### Site Layout
+
+
+
+### User Path
+
+
+
+### Database Structure
+
+
+
+### Colour Choices
+
+
+
+### Fonts
+
+
+## Technologies Implemented
+
+### Languages
+
+* HTML
+* CSS
+* JavaScript
+* Python
+
+### Tools
+
+
+
+## Site Features
+
+## Testing
+
+### Validation
+
+#### HTML Validation- W3C markup validation service was used to assess the validity of my HTML code
+
+
+
+#### CSS Validation- W3C CSS validation service was used to assess the validity of my CSS code
+
+
+
+#### JavaScript Validation- JS hint was used to assess the validity of my scripts
+
+
+
+#### Python Validation- The CI python linter was used to assess the the validity of my python file
+
+
+
+### Performance and Accessibility
+
+
+
+### Device Tests
+
+The website was tested on the following devices:
+
+* Samsung Galaxy M31
+* iPhone 12 Pro
+* Ipad Pro 4th Gen
+* Asus Vivobook laptop (X515JAB_X515JA)
+
+### Responsiveness
+
+[Responsinator]() was used to assess the responsiveness of the project.
+
+### User Story Tests
+
+### First Time User
+
+
+
+### Returning User
+
+
+
+### Site Owner
+
+
+## Bug Squashing
+
+| **Bug** | **Fix** |
+|---------|---------|
+
+
+## Deployment
+
+### Project Creation
+
+
+
+### Deployment to Heroku
+
+
+
+## Credits
+
+* Images for the site were acquired from [Pexels](https://www.pexels.com/)
+* Majority of python code was adapted from the walkthorugh project (Task Manager).
+* [Materialize](https://materializecss.com/) was used as the framework for this site aiding in components and responsiveness.
+
+## Thank You
+
+* My mentor Antonio Rodriguez for his help and advice in creating this project.
+* To the team at [Code Institute](https://codeinstitute.net/) for the lessons and support.
+* My Partner for helping with project testing and supporting me through it.
