@@ -43,8 +43,9 @@
                                     <p class="lead mb-0 text-left font-weight-bold">
                                         {{ article.date }}
                                     </p>
-                                    {% if article.rating %}
-                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ article.get_rating }} /5</small>
+                                    {% if article.get_rating %}
+                                    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ article.rating }} /
+                                        5</small>
                                     {% else %}
                                     <small class="text-muted">No Rating</small>
                                     {% endif %}
