@@ -47,7 +47,7 @@ def article_details(request, article_id):
         'article': article 
     }
 
-        if request.method == 'POST':
+    if request.method == 'POST':
         rating = request.POST.get('rating', 3)
         content = request.POST.get('content', '')
 
@@ -60,7 +60,7 @@ def article_details(request, article_id):
                 review.content = content
                 review.save()
             else:
-                review = Review.objects.create(
+                review = ArticleReview.objects.create(
                     article=article,
                     rating=rating,
                     content=content,
