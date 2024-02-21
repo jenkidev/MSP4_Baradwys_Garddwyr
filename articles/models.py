@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
+
 class Article(models.Model):
     title = models.CharField(max_length=254)
     date = models.DateField(auto_now=True)
@@ -26,9 +27,12 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 
+
 class ArticleReview(models.Model):
-    article = models.ForeignKey(Article, related_name='article_reviews', on_delete=models.CASCADE)
+    article = models.ForeignKey(Article, related_name='article_reviews',
+                                on_delete=models.CASCADE)
     rating = models.IntegerField(default=3)
     content = models.TextField()
-    created_by = models.ForeignKey(User, related_name='article_reviews', on_delete=models.CASCADE)
+    created_by = models.ForeignKey(User, related_name='article_reviews',
+                                   on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
