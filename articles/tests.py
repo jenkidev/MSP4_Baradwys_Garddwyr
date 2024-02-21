@@ -19,10 +19,10 @@ class TestViews(TestCase):
 
         article = Article.objects.create(
             title='title',
-            date= (2023, 16, 12),
-            blurb= 'blurb',
-            content= 'content',
-            rating= 0
+            date=(2023, 16, 12),
+            blurb='blurb',
+            content='content',
+            rating=0
 
         )
 
