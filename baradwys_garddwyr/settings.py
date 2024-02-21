@@ -26,9 +26,12 @@ SECRET_KEY = 'lrdcxlu_wz3@+e2%#vf@h@0^y52f$dd7q#apn3vxuhz*zyajhq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['baradwys-garddwyr-5f5ecb0daff3.herokuapp.com', '8000-jenkidev-msp4baradwysga-sh1e1oy3zsp.ws-eu108.gitpod.io']
-CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com', 'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com' ]
-CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com', 'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com' ]
+ALLOWED_HOSTS = ['baradwys-garddwyr-5f5ecb0daff3.herokuapp.com',
+                 '8000-jenkidev-msp4baradwysga-sh1e1oy3zsp.ws-eu108.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com',
+                        'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com',
+                        'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com']
 
 
 # Application definition
