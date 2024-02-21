@@ -3,8 +3,10 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import Article, ArticleReview
 from .forms import ArticleForm
+from django.db.models.functions import Lower
 
 # Create your views here.
+
 
 def all_articles(request):
     """ A view to return all articles """
