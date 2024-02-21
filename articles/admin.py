@@ -3,6 +3,7 @@ from .models import Article, ArticleReview
 
 # Register your models here.
 
+
 class ArticleAdmin(admin.ModelAdmin):
     list_display = (
         'pk',
@@ -16,6 +17,7 @@ class ArticleAdmin(admin.ModelAdmin):
 
     ordering = ('pk',)
 
+
 class ArticleReviewAdmin(admin.ModelAdmin):
     list_display = (
         'article',
@@ -24,6 +26,7 @@ class ArticleReviewAdmin(admin.ModelAdmin):
         'created_by',
         'created_at',
     )
+
 
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(ArticleReview, ArticleReviewAdmin)
