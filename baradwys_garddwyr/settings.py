@@ -28,10 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['baradwys-garddwyr-5f5ecb0daff3.herokuapp.com',
                  '8000-jenkidev-msp4baradwysga-sh1e1oy3zsp.ws-eu108.gitpod.io']
-CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com',
-                        'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com']
-CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com',
-                        'https://8005-jenkidev-msp4-baradwys-g-qy9tgqfz5s.us2.codeanyapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com']
 
 
 # Application definition
