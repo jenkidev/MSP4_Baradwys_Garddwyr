@@ -84,8 +84,10 @@ def add_article(request):
             messages.success(request, 'Successfully added article!')
             return redirect(reverse('add_article'))
         else:
-            messages.error(request,
-                           'Failed to add article. Please ensure the form is valid.')
+            messages.error(
+                    request,
+                    'Failed to add article. Please ensure the form is valid.'
+                    )
     else:
         form = ArticleForm()
 
@@ -112,8 +114,9 @@ def edit_article(request, article_id):
             messages.success(request, 'Successfully updated article!')
             return redirect(reverse('article_details', args=[article.id]))
         else:
-            messages.error(request,
-                           'Failed to update article. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to update article. Please ensure the form is valid.')
     else:
         form = ArticleForm(instance=article)
         messages.info(request, f'You are editing {article.title}')
