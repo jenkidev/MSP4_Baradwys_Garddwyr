@@ -12,7 +12,6 @@ def all_articles(request):
     """ A view to return all articles """
 
     articles = Article.objects.all()
-    query = None
     sort = None
     direction = None
 
@@ -30,11 +29,11 @@ def all_articles(request):
                     sortkey = f'-{sortkey}'
             articles = articles.order_by(sortkey)
 
-
     current_sorting = f'{sort}_{direction}'
 
     context = {
-        'articles' : articles
+        'articles': articles,
+        'current_sorting': current_sorting
     }
 
     return render(request, 'articles/articles.html', context)
@@ -46,7 +45,7 @@ def article_details(request, article_id):
     article = get_object_or_404(Article, pk=article_id)
 
     context = {
-        'article': article 
+        'article': article
     }
 
     if request.method == 'POST':
@@ -54,7 +53,8 @@ def article_details(request, article_id):
         content = request.POST.get('content', '')
 
         if content:
-            reviews = ArticleReview.objects.filter(created_by=request.user, article=article)
+            reviews = ArticleReview.objects.filter(created_by=request.user,
+                                                   article=article)
 
             if reviews.count() > 0:
                 review = reviews.first()
@@ -73,6 +73,7 @@ def article_details(request, article_id):
 
     return render(request, 'articles/article_details.html', context)
 
+
 @login_required
 def add_article(request):
     """ Add an article to the site """
@@ -83,16 +84,18 @@ def add_article(request):
             messages.success(request, 'Successfully added article!')
             return redirect(reverse('add_article'))
         else:
-            messages.error(request, 'Failed to add article. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to add article. Please ensure the form is valid.')
     else:
         form = ArticleForm()
-        
+
     template = 'articles/add_article.html'
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
 
 @login_required
 def edit_article(request, article_id):
@@ -109,7 +112,8 @@ def edit_article(request, article_id):
             messages.success(request, 'Successfully updated article!')
             return redirect(reverse('article_details', args=[article.id]))
         else:
-            messages.error(request, 'Failed to update article. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to update article. Please ensure the form is valid.')
     else:
         form = ArticleForm(instance=article)
         messages.info(request, f'You are editing {article.title}')
@@ -122,13 +126,14 @@ def edit_article(request, article_id):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_article(request, article_id):
     """ Delete an article from the site """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-        
+
     article = get_object_or_404(Article, pk=article_id)
     article.delete()
     messages.success(request, 'article deleted!')
