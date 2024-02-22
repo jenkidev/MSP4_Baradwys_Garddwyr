@@ -23,6 +23,7 @@ class CategoryAdmin(admin.ModelAdmin):
         'name',
     )
 
+
 class ReviewAdmin(admin.ModelAdmin):
     list_display = (
         'product',
@@ -31,6 +32,7 @@ class ReviewAdmin(admin.ModelAdmin):
         'created_by',
         'created_at',
     )
+
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)

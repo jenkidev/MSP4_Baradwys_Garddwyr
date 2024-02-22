@@ -21,7 +21,8 @@ class Category(models.Model):
 
 class Product(models.Model):
     category = models.ForeignKey(
-        'Category', null=True, blank=True, default='', on_delete=models.SET_NULL)
+            'Category', null=True, blank=True, default='',
+            on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)
     species = models.CharField(max_length=254)
     description = models.TextField()
@@ -37,18 +38,23 @@ class Product(models.Model):
 
         for review in self.reviews.all():
             reviews_total += review.rating
-        
+
         if reviews_total > 0:
             return reviews_total / self.reviews.count()
-        
+
         return 'No rating'
 
     def __str__(self):
         return self.name
 
+
 class Review(models.Model):
-    product = models.ForeignKey(Product, related_name='reviews', on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, related_name='reviews',
+                                on_delete=models.CASCADE
+                                )
     rating = models.IntegerField(default=3)
     content = models.TextField()
-    created_by = models.ForeignKey(User, related_name='reviews', on_delete=models.CASCADE)
+    created_by = models.ForeignKey(User, related_name='reviews',
+                                   on_delete=models.CASCADE
+                                   )
     created_at = models.DateTimeField(auto_now_add=True)
