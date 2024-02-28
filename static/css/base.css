@@ -106,19 +106,9 @@ body {
 
 .overlay-product-detail {
     height: 100%;
-    width: 80%;
-    top: 0;
-    left: 10%;
-    position: fixed;
-    background: rgba(255,255,255, 0.9);
-    z-index: -1;
-}
-
-.overlay-product-detail-bag {
-    height: 100%;
     width: 100%;
     top: 0;
-    left: 0;
+    left: 0%;
     position: fixed;
     background: rgba(255,255,255, 0.9);
     z-index: -1;
