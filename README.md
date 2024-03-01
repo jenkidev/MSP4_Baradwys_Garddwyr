@@ -148,8 +148,63 @@ To create the wireframes for this site I used the balsamiq cloud service. This a
 
 
 
-#### Python Validation- The CI python linter was used to assess the the validity of my python file
+#### Python Validation- 
+The CI python linter was used to assess the the validity of my python file whilst development of the site was underway and in progress. Upon project completion the command 'python3 -m flake8' was used to check for formatting and other issues.
 
+`gitpod /workspace/MSP4_Baradwys_Garddwyr (main) $ python3 -m flake8
+./.devcontainer/build-assets/http_server.py:22:80: E501 line too long (80 > 79 characters)
+./.devcontainer/build-assets/make_url.py:10:39: E231 missing whitespace after ','
+./.devcontainer/build-assets/make_url.py:11:36: E231 missing whitespace after ','
+./.devcontainer/build-assets/make_url.py:12:39: E231 missing whitespace after ','
+./.devcontainer/build-assets/make_url.py:14:59: W292 no newline at end of file
+./articles/migrations/0001_initial.py:17:80: E501 line too long (117 > 79 characters)
+./articles/migrations/0001_initial.py:21:80: E501 line too long (103 > 79 characters)
+./articles/migrations/0001_initial.py:22:80: E501 line too long (82 > 79 characters)
+./articles/migrations/0003_articlereview.py:19:80: E501 line too long (117 > 79 characters)
+./articles/migrations/0003_articlereview.py:23:80: E501 line too long (147 > 79 characters)
+./articles/migrations/0003_articlereview.py:24:80: E501 line too long (156 > 79 characters)
+./baradwys_garddwyr/settings.py:142:80: E501 line too long (91 > 79 characters)
+./baradwys_garddwyr/settings.py:145:80: E501 line too long (81 > 79 characters)
+./baradwys_garddwyr/settings.py:148:80: E501 line too long (82 > 79 characters)
+./baradwys_garddwyr/settings.py:151:80: E501 line too long (83 > 79 characters)
+./checkout/apps.py:8:9: F401 'checkout.signals' imported but unused
+./checkout/migrations/0001_initial.py:19:80: E501 line too long (117 > 79 characters)
+./checkout/migrations/0001_initial.py:20:80: E501 line too long (82 > 79 characters)
+./checkout/migrations/0001_initial.py:25:80: E501 line too long (85 > 79 characters)
+./checkout/migrations/0001_initial.py:28:80: E501 line too long (92 > 79 characters)
+./checkout/migrations/0001_initial.py:29:80: E501 line too long (83 > 79 characters)
+./checkout/migrations/0001_initial.py:31:80: E501 line too long (98 > 79 characters)
+./checkout/migrations/0001_initial.py:32:80: E501 line too long (97 > 79 characters)
+./checkout/migrations/0001_initial.py:33:80: E501 line too long (97 > 79 characters)
+./checkout/migrations/0001_initial.py:39:80: E501 line too long (117 > 79 characters)
+./checkout/migrations/0001_initial.py:41:80: E501 line too long (104 > 79 characters)
+./checkout/migrations/0001_initial.py:42:80: E501 line too long (137 > 79 characters)
+./checkout/migrations/0001_initial.py:43:80: E501 line too long (115 > 79 characters)
+./checkout/migrations/0004_order_user_profile.py:18:80: E501 line too long (155 > 79 characters)
+./products/migrations/0001_initial.py:18:80: E501 line too long (117 > 79 characters)
+./products/migrations/0001_initial.py:20:80: E501 line too long (91 > 79 characters)
+./products/migrations/0001_initial.py:29:80: E501 line too long (117 > 79 characters)
+./products/migrations/0001_initial.py:35:80: E501 line too long (103 > 79 characters)
+./products/migrations/0001_initial.py:36:80: E501 line too long (89 > 79 characters)
+./products/migrations/0001_initial.py:37:80: E501 line too long (82 > 79 characters)
+./products/migrations/0001_initial.py:38:80: E501 line too long (141 > 79 characters)
+./products/migrations/0002_alter_product_category.py:17:80: E501 line too long (141 > 79 characters)
+./products/migrations/0003_review.py:18:80: E501 line too long (117 > 79 characters)
+./products/migrations/0003_review.py:22:80: E501 line too long (146 > 79 characters)
+./products/migrations/0003_review.py:23:80: E501 line too long (139 > 79 characters)
+./products/migrations/0004_alter_review_created_by.py:19:80: E501 line too long (134 > 79 characters)
+./products/widgets.py:9:80: E501 line too long (87 > 79 characters)
+./profiles/migrations/0001_initial.py:21:80: E501 line too long (117 > 79 characters)
+./profiles/migrations/0001_initial.py:22:80: E501 line too long (97 > 79 characters)
+./profiles/migrations/0001_initial.py:23:80: E501 line too long (111 > 79 characters)
+./profiles/migrations/0001_initial.py:24:80: E501 line too long (93 > 79 characters)
+./profiles/migrations/0001_initial.py:25:80: E501 line too long (97 > 79 characters)
+./profiles/migrations/0001_initial.py:26:80: E501 line too long (100 > 79 characters)
+./profiles/migrations/0001_initial.py:27:80: E501 line too long (100 > 79 characters)
+./profiles/migrations/0001_initial.py:28:80: E501 line too long (91 > 79 characters)
+./profiles/migrations/0001_initial.py:29:80: E501 line too long (121 > 79 characters)` 
+
+As can be seen above most issues raised are caused by lengthy migrations and the local env.
 
 
 ### Performance and Accessibility
