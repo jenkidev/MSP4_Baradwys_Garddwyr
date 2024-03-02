@@ -159,7 +159,7 @@ bag.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-gar
 
 checkout.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fcheckout%2F)<br>
 
-checkout_success.html - [Results](https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com/profile/order_history/F39DD59C693247EE9EDDCF904C45A98D)<br>
+checkout_success.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fprofile%2Forder_history%2FF39DD59C693247EE9EDDCF904C45A98D)<br>
 
 For checkout success validation update the order number in the address with one that you have used.
 
