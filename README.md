@@ -136,7 +136,32 @@ To create the wireframes for this site I used the balsamiq cloud service. This a
 
 ### Validation
 
-#### HTML Validation- W3C markup validation service was used to assess the validity of my HTML code
+#### HTML Validation- W3C markup validation service was used to assess the validity of my HTML code, for some results you may need to be logged into a admin or user account.
+index.html (Home page) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2F)<br>
+
+articles.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Farticles)<br>
+
+add_article.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Farticles%2Fadd%2F)<br>
+
+edit_article.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Farticles%2Fedit%2F1%2F)<br>
+
+products.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fproducts%2F)<br>
+
+add_product.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fproducts%2Fadd)<br>
+
+edit_product.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fproducts%2Fedit%2F5%2F)<br>
+
+product_details.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fproducts%2F5%2F)<br>
+
+profile.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fprofile)<br>
+
+bag.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fbag%2F)<br>
+
+checkout.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2Fcheckout%2F)<br>
+
+checkout_success.html - [Results](https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com/profile/order_history/F39DD59C693247EE9EDDCF904C45A98D)<br>
+
+For checkout success validation update the order number in the address with one that you have used.
 
 
 
