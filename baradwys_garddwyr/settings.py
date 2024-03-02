@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!#
 SECRET_KEY = 'lrdcxlu_wz3@+e2%#vf@h@0^y52f$dd7q#apn3vxuhz*zyajhq'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['baradwys-garddwyr-5f5ecb0daff3.herokuapp.com',
                  '8000-jenkidev-msp4baradwysga-sh1e1oy3zsp.ws-eu108.gitpod.io']
