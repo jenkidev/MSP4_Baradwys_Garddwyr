@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block extra_title %} 404 - Page not Found{% endblock %}
+{% block extra_title %} 500 - Server Error{% endblock %}
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row h-100">
                 <div class="col-sm-12 col-lg-6 py-5 text-lg-left text-sm-center">
-                    <h1 class="display-4 text-uppercase font-weight-bold text-black tag-line">I'm sorry the page you are looking for does not exist.</h1>
+                    <h1 class="display-4 text-uppercase font-weight-bold text-black tag-line">There seems to be an internal server error, Sorry.</h1>
                     <div class="my-5">
                         <h4>
                         <a href="{% url 'home' %}" class="pb-btn btn btn-lg rounded-0 text-uppercase py-3 black-back-g thick-text border-black" aria-label="Back Home">
