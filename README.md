@@ -54,10 +54,16 @@
 ## Project Goals
 
 ### User Goals
+* To see all products for sale in the store.
+* To read articles about gardening on the site.
+* To select items and put them in a shopping bag.
+* To read details about the products for sale.
+* To leave reviews for products and articles.
+* To read reviews for products and articles.
+* To checkout and purchase items in my shopping bag.
 
 
-
-### Site Owner Goals
+### Site Owner Goals 
 
 
 ## User Experience
