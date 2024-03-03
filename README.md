@@ -163,6 +163,14 @@ checkout_success.html - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 For checkout success validation update the order number in the address with one that you have used.
 
+404.html - [Results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2F404)<br>
+
+403.html - [Results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2F403)<br>
+
+500.html - [Results](https://validator.w3.org/nu/?checkerrorpages=yes&useragent=Validator.nu%2FLV+https%3A%2F%2Fvalidator.w3.org%2Fservices&acceptlanguage=&doc=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2F500)<br>
+
+For the above error pages ensure that the error pages option is checked in the html checker options.
+
 
 
 #### CSS Validation- W3C CSS validation service was used to assess the validity of my CSS code
