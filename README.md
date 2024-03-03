@@ -64,7 +64,8 @@
 
 
 ### Site Owner Goals 
-
+* To allow users to make purchases on the site.
+* To manage admin on products and articles.
 
 ## User Experience
 
