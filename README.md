@@ -129,6 +129,8 @@ The scope of the project in it’s first release is defined by the following fea
 
 ## Design of Site
 
+The design of the site was inspired by BBC's Gardeners World. This was so it would have interesting articles to help newbie and intermediate gardeners. It would also have appropriate products attached. Full Disclosure: The articles and products for the site were generated using ChatGPT to save time however all code was my own creation adapted from the CodeInstitute Boutique Ado Project.
+
 ### Initial idea
 
 The initial idea for this project was to create a gardening resource site. This was to have helpful gardening articles and useful products related to gardening that could be purchased.
@@ -136,6 +138,30 @@ The initial idea for this project was to create a gardening resource site. This 
 ### Wireframes
 
 To create the wireframes for this site I used the balsamiq cloud service. This allowed me to create a more basic wireframe. This was helpful as I have found in the past having a more complex and detailed wireframe to be quite restricting.
+
+<details><summary>Home Page</summary><img src="docs/wireframes/Home.png"></details><br>
+
+<details><summary>Products Page</summary><img src="docs/wireframes/Products.png"></details><br>
+
+<details><summary>Product Details Page</summary><img src="docs/wireframes/Product_Details.png"></details><br>
+
+<details><summary>Product Admin Page</summary><img src="docs/wireframes/Product_Admin.png"></details><br>
+
+<details><summary>Articles Page</summary><img src="docs/wireframes/Articles.png"></details><br>
+
+<details><summary>Article Details Page</summary><img src="docs/wireframes/Article_Details.png"></details><br>
+
+<details><summary>Article Admin Page</summary><img src="docs/wireframes/Article_Admin.png"></details><br>
+
+<details><summary>Registration Page</summary><img src="docs/wireframes/Registration_Page.png"></details><br>
+
+<details><summary>Sign-In Page</summary><img src="docs/wireframes/Sign-in_Page.png"></details><br>
+
+<details><summary>Profile Page</summary><img src="docs/wireframes/Profile_Page.png"></details><br>
+
+<details><summary>Bag Page</summary><img src="docs/wireframes/Bag_Page.png"></details><br>
+
+<details><summary>Checkout Page</summary><img src="docs/wireframes/Checkout_Page.png"></details><br>
 
 
 ### Site Layout
@@ -148,11 +174,16 @@ To create the wireframes for this site I used the balsamiq cloud service. This a
 
 ### Database Structure
 
+I used LucidChart to create the ERD showing how the data would flow and be stored in ElephantSQL.
+
+<img src="docs/Database structure.png">
 
 
 ### Colour Choices
 
+The colour choice were made to emulate BBC Gardeners world lightly with a verdant and fresh feel evocative of gardens.
 
+<img src="docs/Colour pallete.png">
 
 ### Fonts
 
