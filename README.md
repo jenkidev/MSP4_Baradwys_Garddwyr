@@ -91,35 +91,29 @@ The target audience for this site is for both new and intermediate gardeners. It
 
 ### User Stories
 
-#### First-time User
 |**User Story**|**User Type**|**A user would want to**|**because**|
 |--------------|-------------|------------------------|-----------|
 |*1*|*Shopper*|*View all products*|*Decide which product they want to buy*|
 |*2*|*Shopper*|*See product details*|*See specific details about the products such as a description, planting conditions, reviews, price, etc.*|
-|*3*|*Shopper*|*Sort products on the product page*|**|
-|*4*|*Shopper*|*Place items in a shopping bag*|**|
-|*5*|*Shopper*|*Purchase items from their shopping bag*|**|
-|*6*|*Shopper*|*View an order history*|**|
-|*7*|*Shopper*|*Search site for specific items*|**|
-|*8*|*Shopper*|*Create reviews for products*|**|
-|*9*|*Shopper*|*View reviews for products*|**|
-|*10*|*Shopper*|*Receive email confirmation of a purchase*|**|
-|*11*|*Shopper*|*Update profile details*|**|
-|*12*|*Shopper*|*Create an account for the site*|**|
-|*13*|*Shopper*|*Sign in and out of their account*|**|
-|*14*|*Shopper*|*View articles on the site*|**|
-|*15*|*Shopper*|*Leave reviews for articles*|**|
-|*16*|*Site Admin*|*Add products*|**|
-|*17*|*Site Admin*|*Delete products*|**|
-|*18*|*Site Admin*|*Edit Products*|**|
-|*19*|*Site Admin*|*Add Articles*|**|
-|*20*|*Site Admin*|*Delete Articles*|**|
-|*21*|*Site Admin*|*Edit Articles*|**|
-
-#### Returning User
-
-
-#### Site Owner
+|*3*|*Shopper*|*Sort products on the product page*|*To better search the product page according to their prefernec be that finding a specific product or finding the cheapest item*|
+|*4*|*Shopper*|*Place items in a shopping bag*|*To be able to purchase multiple items at once and edit what items they want when it comes time to purchase*|
+|*5*|*Shopper*|*Purchase items from their shopping bag*|*Complete purchase process and pay for items they want*|
+|*6*|*Shopper*|*View an order history*|*Review previous purchases*|
+|*7*|*Shopper*|*Search site for specific items*|*Find a specific product*|
+|*8*|*Shopper*|*Create reviews for products*|*Leave user impressions on product or purchase process*|
+|*9*|*Shopper*|*View reviews for products*|*To see others impressions on product to inform purchase*|
+|*10*|*Shopper*|*Receive email confirmation of a purchase*|*To confirm that the purchase was susccessful and to get a summary of what was purchased*|
+|*11*|*Shopper*|*Update profile details*|*To create a distinct profile and update default delivery address*|
+|*12*|*Shopper*|*Create an account for the site*|*To provide default information to speed up purchase process*|
+|*13*|*Shopper*|*Sign in and out of their account*|*Access personal information stored on the site*|
+|*14*|*Shopper*|*View articles on the site*|*To read helpful information that the site provides related to the site goals (gardening)*|
+|*15*|*Shopper*|*Leave reviews for articles*|*Comment on articles information *|
+|*16*|*Site Admin*|*Add products*|*Include new products that have come into stock for sale*|
+|*17*|*Site Admin*|*Delete products*|*Remove discontinued products from the store*|
+|*18*|*Site Admin*|*Edit Products*|*Change details for the products already on the store*|
+|*19*|*Site Admin*|*Add Articles*|*Create new articles for the website*|
+|*20*|*Site Admin*|*Delete Articles*|*Remove old articles from the website*|
+|*21*|*Site Admin*|*Edit Articles*|*Change details for the articles in the website*|
 
 
 ## Scope
