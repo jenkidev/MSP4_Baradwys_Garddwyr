@@ -131,7 +131,7 @@ The scope of the project in it’s first release is defined by the following fea
 
 ### Initial idea
 
-
+The initial idea for this project was to create a gardening resource site. This was to have helpful gardening articles and useful products related to gardening that could be purchased.
 
 ### Wireframes
 
