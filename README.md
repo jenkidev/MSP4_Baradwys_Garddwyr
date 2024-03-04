@@ -120,6 +120,12 @@ The target audience for this site is for both new and intermediate gardeners. It
 
 The scope of the project in it’s first release is defined by the following features:
 
+* An easy to navigate site where all important features can be accessed through clear and discernable links, no need for back and forward buttons.
+* Users should be able to log into an account with default details for shipping and make purchases, they can also read helpful articles. Site admins can log in to an admin account and perform CRUD applications on articles and products.
+* All users can view reviews on products and articles.
+* All users can sort products and search for them.
+* Clear logo which is also used as a favicon.
+* Error pages which direct a user back to the home page when a problem occurs.
 
 ## Design of Site
 
