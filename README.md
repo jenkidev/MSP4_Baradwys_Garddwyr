@@ -200,6 +200,18 @@ The font choice for this site is Playfair Display with serif as a backup, I chos
 
 ### Tools
 
+* Django - Used to develop the backend infrastructure
+* AWS - Created an S3 bucket to store static files for deployment.
+* Bootstrap - Used styling features and grid system to keep site responsive.
+* ElephantSQL - Used to store the PostGreSQL databse used by Django.
+* Stripe - Used to handle the payments for the site and webhooks sent back from  Stripe.
+* Git - Used to add and commit changes to my local repo and then push to remote branch.
+* GitHub - Used to store source code and repo of the site.
+* Balsamiq - Used to create basic wireframes for the site.
+* Lucid - Used to create ERD for the database structure of the site.
+* Google Fonts - Used for the fonts utilised on the site.
+* Font Awesome - Used to generate icons on the site.
+* Favicon.io - Used to create Favicon and Logo for site.
 
 
 ## Site Features
