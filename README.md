@@ -71,17 +71,49 @@
 
 ### Target Audience
 
-
+The target audience for this site is for both new and intermediate gardeners. It is for those that wish to buy supplies for gardening and read helpful articles to improve their skills.
 
 ### User Requirements and Expectations
 
 * Easy to navigate site and intuitive design.
+* Nice design which functions well on both desktop and mobile devices. 
+* All links to be fully functional.
+* Able to view all products for sale.
+* Able to sort products by category.
+* Able to sort products by different factors (e.g. price, name, etc.)
+* Able to leave and read product reviews.
+* Able to login and make purchases.
+* Able to view and read all articles on the site.
+* Able to sort articles by different factors (e.g. name, rating etc.)
+* Able to leave and read article reviews.
+* Able to use a search function to find products.
 
 
 ### User Stories
 
 #### First-time User
-
+|**User Story**|**User Type**|**A user would want to**|**because**|
+|*1*|*Shopper*|*View all products*|*Decide which product they want to buy*|
+|*2*|*Shopper*|*See product details*|*See specific details about the products such as a description, planting conditions, reviews, price, etc.*|
+|*3*|*Shopper*|*Sort products on the product page*|**|
+|*4*|*Shopper*|*Place items in a shopping bag*|**|
+|*5*|*Shopper*|*Purchase items from their shopping bag*|**|
+|*6*|*Shopper*|*View an order history*|**|
+|*7*|*Shopper*|*Search site for specific items*|**|
+|*8*|*Shopper*|*Create reviews for products*|**|
+|*9*|*Shopper*|*View reviews for products*|**|
+|*10*|*Shopper*|*Receive email confirmation of a purchase*|**|
+|*11*|*Shopper*|*Update profile details*|**|
+|*12*|*Shopper*|*Create an account for the site*|**|
+|*13*|*Shopper*|*Sign in and out of their account*|**|
+|*14*|*Shopper*|*View articles on the site*|**|
+|*15*|*Shopper*|*Leave reviews for articles*|**|
+|*16*|*Site Admin*|*Add products*|**|
+|*17*|*Site Admin*|*Delete products*|**|
+|*18*|*Site Admin*|*Edit Products*|**|
+|*19*|*Site Admin*|*Add Articles*|**|
+|*20*|*Site Admin*|*Delete Articles*|**|
+|*21*|*Site Admin*|*Edit Articles*|**|
 
 #### Returning User
 
