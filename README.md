@@ -181,12 +181,13 @@ I used LucidChart to create the ERD showing how the data would flow and be store
 
 ### Colour Choices
 
-The colour choice were made to emulate BBC Gardeners world lightly with a verdant and fresh feel evocative of gardens.
+The colour choices were made to emulate BBC Gardeners world lightly with a verdant and fresh feel evocative of gardens.
 
 <img src="docs/Colour pallete.png">
 
 ### Fonts
 
+The font choice for this site is Playfair Display with serif as a backup, I chose this font as I beleive it is a clear and easily legible font perfect for a site with articles.
 
 ## Technologies Implemented
 
