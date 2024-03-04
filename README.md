@@ -93,6 +93,7 @@ The target audience for this site is for both new and intermediate gardeners. It
 
 #### First-time User
 |**User Story**|**User Type**|**A user would want to**|**because**|
+|--------------|-------------|------------------------|-----------|
 |*1*|*Shopper*|*View all products*|*Decide which product they want to buy*|
 |*2*|*Shopper*|*See product details*|*See specific details about the products such as a description, planting conditions, reviews, price, etc.*|
 |*3*|*Shopper*|*Sort products on the product page*|**|
