@@ -385,7 +385,7 @@ Tests showed that the site was fully responsive to desktop, tablet and mobile.
 
 | **Bug** | **Fix** |
 |---------|---------|
-
+|Template syntax error at /products/ causing website not to load|IDE formatting was auto correcting '{% if current_sorting == 'price_asc' %} to {% if current_sorting =='price_asc' %}' which was causing a syntax error preventing page from loading. Simply reverting back to the correct syntax fixed the issue.|
 
 ## Deployment
 
