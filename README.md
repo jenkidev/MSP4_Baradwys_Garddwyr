@@ -332,6 +332,23 @@ As can be seen above most issues raised are caused by lengthy migrations and the
 
 ### Performance and Accessibility
 
+Performance and accessibility were tested using google dev tools lighthouse feature.
+
+Below are the results from these tests.
+
+<details><summary>Home Page</summary><img src=""></details><br>
+<details><summary>Products Page</summary><img src=""></details><br>
+<details><summary>Product Details Page</summary><img src=""></details><br>
+<details><summary>Add Product Page</summary><img src=""></details><br>
+<details><summary>Edit Product Page</summary><img src=""></details><br>
+<details><summary>Articles Page</summary><img src=""></details><br>
+<details><summary>Add Article Page</summary><img src=""></details><br>
+<details><summary>Edit Article Page</summary><img src=""></details><br>
+<details><summary>Log In Page</summary><img src=""></details><br>
+<details><summary>Register Page</summary><img src=""></details><br>
+<details><summary>Profile Page</summary><img src=""></details><br>
+<details><summary>Bag Page</summary><img src=""></details><br>
+<details><summary>Checkout Page</summary><img src=""></details><br>
 
 
 ### Device Tests
