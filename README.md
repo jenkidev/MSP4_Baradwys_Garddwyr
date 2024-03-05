@@ -436,8 +436,9 @@ You will also need to set your heroku API key in the heroku CLI. This can be fou
 ## Credits
 
 * Images for the site were acquired from [Pexels](https://www.pexels.com/)
-* Majority of python code was adapted from the walkthorugh project (Task Manager).
-* [Materialize](https://materializecss.com/) was used as the framework for this site aiding in components and responsiveness.
+* Majority of python code was adapted from the walkthorugh project (Boutique Ado).
+* [Bootstrap](https://getbootstrap.com/) was used as the framework for this site aiding in components and responsiveness.
+* The following [video](https://www.youtube.com/watch?v=D3iPIoTL9sk) was used as assistance for creating the rated review system  
 
 ## Thank You
 
