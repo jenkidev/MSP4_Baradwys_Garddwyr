@@ -389,14 +389,50 @@ Tests showed that the site was fully responsive to desktop, tablet and mobile.
 
 ## Deployment
 
-### Project Creation
+<strong>You can fork the repository by:</strong>
 
+1. Navigating to the GitHub repository
+2. Click on "Fork" button in top right hand corner 
 
+<strong>(Please note you must be signed in to Fork a repository)
 
-### Deployment to Heroku
+You can clone the repository by:</strong>
 
+1. Navigating to GitHub repository
+2. Locate the "Code" button above the file list and click it
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to where you wish to clone the directory
+6. Type git clone and paste in the URL from the clipboard e.g $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone in your chosen folder.
 
+<strong>Deployed using Heroku using the following steps:</strong>
 
+1. You will need to first create the requirements that Heroku will use to import the dependencies. To do so type the following command in your CLI pip3 freeze > requirements.txt
+
+2. You will then need a Procfile which is needed to specify the commands that are executed by the Heroku app on startup. To do so type the following command in your CLI echo web: gunicorn ash_techs.wsgi:application > Procfile
+
+3. Be sure to add, commit and push your changes once you have done the above two tasks
+
+4. Within Heroku follow the steps "New" > "Create New App" > Give app a name and choose the relevant region
+
+5. The newly created app will open on "Deploy", then follow the steps "Deployment Method" > Select Github and search for the repo-name. Once you have found it, click "Connect"
+
+6. Be sure to update the "Config Vars" located in "Settings" > "Config Vars" > "Reveal Config Vars". You will need to set the following variables:
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
+* DISABLE_COLLECTSTATIC (Set to 1 after initially collecting all static files otherwise AWS will continue to pull through static files)
+* EMAIL_HOST_PASS
+* EMAIL_HOST_USER
+* HEROKU_POSTGRESQL_YELLOW_URL
+* SECRET_KEY
+* STRIPE_PUBLIC_KEY
+* STRIPE_SECRET_KEY
+* STRIPE_WH
+* USE_AWS
+* ALLOWED_HOSTS
+
+You will also need to set your heroku API key in the heroku CLI. This can be found in "Account Settings" > "Account" > "API Key"
 ## Credits
 
 * Images for the site were acquired from [Pexels](https://www.pexels.com/)
