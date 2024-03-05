@@ -170,7 +170,9 @@ To create the wireframes for this site I used the balsamiq cloud service. This a
 
 ### User Path
 
+I used Figma to show a prospective users path through the Baradwys Garddwyr website.
 
+<img src="docs/User_Flow_chart.png">
 
 ### Database Structure
 
@@ -259,10 +261,14 @@ For the above error pages ensure that the error pages option is checked in the h
 
 #### CSS Validation- W3C CSS validation service was used to assess the validity of my CSS code
 
+The below results show no errors in the css code, there are several warnings although these are related to the webkit extensions.
+
+Whole Site CSS - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbaradwys-garddwyr-5f5ecb0daff3.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 #### JavaScript Validation- JS hint was used to assess the validity of my scripts
 
+All Javascript code passed with a few warning relateds to javascript versioning e.g. only available in ES6
 
 
 #### Python Validation- 
