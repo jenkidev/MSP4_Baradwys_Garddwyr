@@ -336,20 +336,23 @@ Performance and accessibility were tested using google dev tools lighthouse feat
 
 Below are the results from these tests.
 
-<details><summary>Home Page</summary><img src=""></details><br>
-<details><summary>Products Page</summary><img src=""></details><br>
-<details><summary>Product Details Page</summary><img src=""></details><br>
-<details><summary>Add Product Page</summary><img src=""></details><br>
-<details><summary>Edit Product Page</summary><img src=""></details><br>
-<details><summary>Articles Page</summary><img src=""></details><br>
-<details><summary>Add Article Page</summary><img src=""></details><br>
-<details><summary>Edit Article Page</summary><img src=""></details><br>
-<details><summary>Log In Page</summary><img src=""></details><br>
-<details><summary>Register Page</summary><img src=""></details><br>
-<details><summary>Profile Page</summary><img src=""></details><br>
-<details><summary>Bag Page</summary><img src=""></details><br>
-<details><summary>Checkout Page</summary><img src=""></details><br>
+<details><summary>Home Page</summary><img src="docs/performance/Home_page.png"></details><br>
+<details><summary>Products Page</summary><img src="docs/performance/Products_page.png"></details><br>
+<details><summary>Product Details Page</summary><img src="docs/performance/product_details_page.png"></details><br>
+<details><summary>Add Product Page</summary><img src="docs/performance/add_product_page.png"></details><br>
+<details><summary>Edit Product Page</summary><img src="docs/performance/edit_product_page.png"></details><br>
+<details><summary>Articles Page</summary><img src="docs/performance/articles_page.png"></details><br>
+<details><summary>Add Article Page</summary><img src="docs/performance/add_article_page.png"></details><br>
+<details><summary>Edit Article Page</summary><img src="docs/performance/edit_article_page.png"></details><br>
+<details><summary>Log In Page</summary><img src="docs/performance/sign_in_page.png"></details><br>
+<details><summary>Register Page</summary><img src="docs/performance/Registration_page.png"></details><br>
+<details><summary>Profile Page</summary><img src="docs/performance/profile_page.png"></details><br>
+<details><summary>Bag Page</summary><img src="docs/performance/bag_page.png"></details><br>
+<details><summary>Checkout Page</summary><img src="docs/performance/checkout_page.png"></details><br>
 
+On analysis of the test many of the lower performance scores were caused by issues rendering high quality images or the images being scaled out of their original aspect ratio to fit withing the cards as displayed on the site.
+
+Lower accessibility scores were caused by contrast errors.
 
 ### Device Tests
 
