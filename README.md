@@ -345,8 +345,9 @@ The website was tested on the following devices:
 
 ### Responsiveness
 
-[Responsinator]() was used to assess the responsiveness of the project.
+Responsiveness was tested using googles developer tools to test different devices and orientations.
 
+Tests showed that the site was fully responsive to desktop, tablet and mobile.
 ### User Story Tests
 
 ### First Time User
