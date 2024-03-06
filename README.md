@@ -336,20 +336,23 @@ Performance and accessibility were tested using google dev tools lighthouse feat
 
 Below are the results from these tests.
 
-<details><summary>Home Page</summary><img src=""></details><br>
-<details><summary>Products Page</summary><img src=""></details><br>
-<details><summary>Product Details Page</summary><img src=""></details><br>
-<details><summary>Add Product Page</summary><img src=""></details><br>
-<details><summary>Edit Product Page</summary><img src=""></details><br>
-<details><summary>Articles Page</summary><img src=""></details><br>
-<details><summary>Add Article Page</summary><img src=""></details><br>
-<details><summary>Edit Article Page</summary><img src=""></details><br>
-<details><summary>Log In Page</summary><img src=""></details><br>
-<details><summary>Register Page</summary><img src=""></details><br>
-<details><summary>Profile Page</summary><img src=""></details><br>
-<details><summary>Bag Page</summary><img src=""></details><br>
-<details><summary>Checkout Page</summary><img src=""></details><br>
+<details><summary>Home Page</summary><img src="docs/performance/Home_page.png"></details><br>
+<details><summary>Products Page</summary><img src="docs/performance/Products_page.png"></details><br>
+<details><summary>Product Details Page</summary><img src="docs/performance/product_details_page.png"></details><br>
+<details><summary>Add Product Page</summary><img src="docs/performance/add_product_page.png"></details><br>
+<details><summary>Edit Product Page</summary><img src="docs/performance/edit_product_page.png"></details><br>
+<details><summary>Articles Page</summary><img src="docs/performance/articles_page.png"></details><br>
+<details><summary>Add Article Page</summary><img src="docs/performance/add_article_page.png"></details><br>
+<details><summary>Edit Article Page</summary><img src="docs/performance/edit_article_page.png"></details><br>
+<details><summary>Log In Page</summary><img src="docs/performance/sign_in_page.png"></details><br>
+<details><summary>Register Page</summary><img src="docs/performance/Registration_page.png"></details><br>
+<details><summary>Profile Page</summary><img src="docs/performance/profile_page.png"></details><br>
+<details><summary>Bag Page</summary><img src="docs/performance/bag_page.png"></details><br>
+<details><summary>Checkout Page</summary><img src="docs/performance/checkout_page.png"></details><br>
 
+On analysis of the test many of the lower performance scores were caused by issues rendering high quality images or the images being scaled out of their original aspect ratio to fit withing the cards as displayed on the site.
+
+Lower accessibility scores were caused by contrast errors.
 
 ### Device Tests
 
@@ -382,23 +385,60 @@ Tests showed that the site was fully responsive to desktop, tablet and mobile.
 
 | **Bug** | **Fix** |
 |---------|---------|
-
+|Template syntax error at /products/ causing website not to load|IDE formatting was auto correcting '{% if current_sorting == 'price_asc' %} to {% if current_sorting =='price_asc' %}' which was causing a syntax error preventing page from loading. Simply reverting back to the correct syntax fixed the issue.|
 
 ## Deployment
 
-### Project Creation
+<strong>You can fork the repository by:</strong>
 
+1. Navigating to the GitHub repository
+2. Click on "Fork" button in top right hand corner 
 
+<strong>(Please note you must be signed in to Fork a repository)
 
-### Deployment to Heroku
+You can clone the repository by:</strong>
 
+1. Navigating to GitHub repository
+2. Locate the "Code" button above the file list and click it
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to where you wish to clone the directory
+6. Type git clone and paste in the URL from the clipboard e.g $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone in your chosen folder.
 
+<strong>Deployed using Heroku using the following steps:</strong>
 
+1. You will need to first create the requirements that Heroku will use to import the dependencies. To do so type the following command in your CLI pip3 freeze > requirements.txt
+
+2. You will then need a Procfile which is needed to specify the commands that are executed by the Heroku app on startup. To do so type the following command in your CLI echo web: gunicorn ash_techs.wsgi:application > Procfile
+
+3. Be sure to add, commit and push your changes once you have done the above two tasks
+
+4. Within Heroku follow the steps "New" > "Create New App" > Give app a name and choose the relevant region
+
+5. The newly created app will open on "Deploy", then follow the steps "Deployment Method" > Select Github and search for the repo-name. Once you have found it, click "Connect"
+
+6. Be sure to update the "Config Vars" located in "Settings" > "Config Vars" > "Reveal Config Vars". You will need to set the following variables:
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
+* DISABLE_COLLECTSTATIC (Set to 1 after initially collecting all static files otherwise AWS will continue to pull through static files)
+* EMAIL_HOST_PASS
+* EMAIL_HOST_USER
+* HEROKU_POSTGRESQL_YELLOW_URL
+* SECRET_KEY
+* STRIPE_PUBLIC_KEY
+* STRIPE_SECRET_KEY
+* STRIPE_WH
+* USE_AWS
+* ALLOWED_HOSTS
+
+You will also need to set your heroku API key in the heroku CLI. This can be found in "Account Settings" > "Account" > "API Key"
 ## Credits
 
 * Images for the site were acquired from [Pexels](https://www.pexels.com/)
-* Majority of python code was adapted from the walkthorugh project (Task Manager).
-* [Materialize](https://materializecss.com/) was used as the framework for this site aiding in components and responsiveness.
+* Majority of python code was adapted from the walkthorugh project (Boutique Ado).
+* [Bootstrap](https://getbootstrap.com/) was used as the framework for this site aiding in components and responsiveness.
+* The following [video](https://www.youtube.com/watch?v=D3iPIoTL9sk) was used as assistance for creating the rated review system  
 
 ## Thank You
 
