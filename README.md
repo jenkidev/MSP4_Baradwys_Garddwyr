@@ -1,8 +1,10 @@
 # Baradwys Garddwyr E-Commerce Website
 
+<img src="docs/ReadMe_header.png">
+
 (by Morgan Jenkins)
 
-[Live Project]
+[Live Project](https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com/)
 
 ## Table of Contents
 
