@@ -404,15 +404,41 @@ Responsiveness was tested using googles developer tools to test different device
 Tests showed that the site was fully responsive to desktop, tablet and mobile.
 ### User Story Tests
 
-### First Time User
+For making purchases on the site the default payment accepted details from stripe were used.
+| **Card Number** | **4242424242424242** |
+|-----------------|----------------------|
+|**Expiry**|**04/24**|
+|**CVC**|**242**|
+|**Zip Code**|**42424**|
 
+Shopper
+|**User Story**|**Action**|**Expected Result**|**Result**|
+|--------------|----------|-------------------|----------|
+|*View all products*|*Upon entering the landing page click products -> All products or explore our range button*|*User is taken to page displaying all products*|*Works as expected*|
+|*See product details*|*Click on product that is desired*|*After clicking on a product the user is redirected to a new page displaying more indepth information about the product.*|*Works as expected*|
+|*Sort products on the product page*|*Clicking the sort selector reveals a dropdown list from which the user can select how they wish the products to be sorted.*|*The products are sorted based on predefined criteria e.g. name, price, rating in both ascending and desceding order.*|*Works as expected*|
+|*Place items in a shopping bag*|*Once a product is found click on the add to bag button*|*The product selected is added into a personalised shopping bag*|*Works as expected*|
+|*Purchase items from their shopping bag*|*On the bag page click the secure checkout button, fill out delivery address, fill out card details and click complete order*|*Order is completed and user is redirected to a page confirming the purchase*|*Works as expected*|
+|*View an order history*|*Select the user profile section*|*The user profile page opens up and an order history is displayed on the page*|*Works as expected*|
+|*Search site for specific items*|*Type a search term into the search bar and click the search button*|*The products page opens with the searched item displayed*|*Works as expected*|
+|*Create reviews for products*|*On product details page fill out review entry form and select a rating. Then click submit review*|*A profile specific review is posted onto the product detail page, the rating for the product is then updated with the average of all review ratings*|*Works as expected*|
+|*View reviews for products*|*Scroll to the bottom of the product details page*|*Displays all reviews by users for selected product*|*Works as expected*|
+|*Receive email confirmation of a purchase*|*Complete checkout and purchase procedure*|*A confirmation email is sent to the registered address*|*Works as expected*|
+|*Update profile details*|*Enter profile page and update details of shipping with the present form*|*The profile details are updated*|*Works as expected*|
+|*Create an account for the site*|*User clicks the registration link, provides an email address, username and password*|*A confirmation email is sent to the provided address, upon clicking the link in the email registration is complete and the account is created*|*Works as expected*|
+|*Sign in and out of their account*|*Click sign in link-> provide username and password. Once signed in another link is available titled sign out*|*Upon following these actions a user can sign in and out of their account*|*Works as expected*|
+|*View articles on the site*|*Upon entering the landing page click products -> Articles*|**User is taken to page displaying all articles*|*Works as expected*|
+|*Leave reviews for articles*|*On article content page fill out review entry form and select a rating. Then click submit review*|*An article specific review is posted onto the article content page, the rating for the article is then updated with the average of all review ratings*|*Works as expected*|
 
-
-### Returning User
-
-
-
-### Site Owner
+Site Admin
+|**User Story**|**Action**|**Expected Result**|**Result**|
+|--------------|----------|-------------------|----------|
+|*Add products*|*Click product management link-> Fill out form with product details-> submit form*|*A new product is added to the site*|*Works as expected*|
+|*Delete products*|*Click delete link*|*Product is removed from the site*|*Works as expected*|
+|*Edit Products*|*Click edit link->Edit product details in form->submit form*|*The product details are changed in accordance to the submitted form*|*Works as expected*|
+|*Add Articles*|*Click article management link-> Fill out form with article details-> submit form*|*A new article is added to the site*|*Works as expected*|
+|*Delete Articles*|*Click delete link*|*Article is removed from the site*|*Works as expected*|
+|*Edit Articles*|*Click edit link->Edit article details in form->submit form*|*The product details are changed in accordance to the submitted form*|*Works as expected*|*Works as expected*|
 
 
 ## Bug Squashing
