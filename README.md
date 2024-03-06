@@ -166,7 +166,41 @@ To create the wireframes for this site I used the balsamiq cloud service. This a
 
 ### Site Layout
 
+<details><summary>Home Page</summary><img src="docs/feature videos/Home_page.gif"></details><br>
 
+<details><summary>Articles Page</summary><img src="docs/feature videos/Articles_page.gif"></details><br>
+
+<details><summary>Add Article Page</summary><img src="docs/feature videos/add_article.gif"></details><br>
+
+<details><summary>Edit Article Page</summary><img src="docs/feature videos/edit_article.gif"></details><br>
+
+<details><summary>Delete Article</summary><img src="docs/feature videos/delete_article.gif"></details><br>
+
+<details><summary>Products Page</summary><img src="docs/feature videos/products_page.gif"></details><br>
+
+<details><summary>Product Details Page</summary><img src="docs/feature videos/product_details_page.gif"></details><br>
+
+<details><summary>Add Product Page</summary><img src="docs/feature videos/Add_product.gif"></details><br>
+
+<details><summary>Edit Product Page</summary><img src="docs/feature videos/edit_product.gif"></details><br>
+
+<details><summary>Delete Product Page</summary><img src="docs/feature videos/delete_product.gif"></details><br>
+
+<details><summary>Add Product Review</summary><img src="docs/feature videos/add_product_review.gif"></details><br>
+
+<details><summary>Add Product to Bag</summary><img src="docs/feature videos/add_product_to_bag.gif"></details><br>
+
+<details><summary>Registration Page</summary><img src="docs/feature videos/registration.gif"></details><br>
+
+<details><summary>Sign in Page</summary><img src="docs/feature videos/Sign_in.gif"></details><br>
+
+<details><summary>Profile Page</summary><img src="docs/feature videos/profile_page.gif"></details><br>
+
+<details><summary>Bag Page</summary><img src="docs/feature videos/bag_page.gif"></details><br>
+
+<details><summary>Checkout Page</summary><img src="docs/feature videos/checkout_page.gif"></details><br>
+
+<details><summary>Sign Out</summary><img src="docs/feature videos/sign_out.gif"></details><br>
 
 ### User Path
 
