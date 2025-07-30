@@ -4,7 +4,7 @@
 
 (by Morgan Jenkins)
 
-[Live Project](https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com/)
+[Live Project](https://baradwys-garddwyr-5f5ecb0daff3.herokuapp.com/) (Deprecated as no hosting currently available)
 
 ## Table of Contents
 
